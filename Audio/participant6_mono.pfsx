@@ -6,7 +6,7 @@
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="1">
-            <Int>3025</Int>
+            <Int>3010</Int>
         </pref>
     </prefGroup>
     <pref key="LayoutManager.SelectedTabIndex">
@@ -16,13 +16,16 @@
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
     <pref key="SegmentationViewer.ZoomLevel">
-        <Float>221.0</Float>
+        <Float>220.0</Float>
     </pref>
+    <prefList key="Interlinear.VisibleTiers">
+        <String>Furhat</String>
+    </prefList>
     <pref key="MultiTierViewer.ActiveTierName">
         <String>Participant</String>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>10</Int>
+        <Int>104</Int>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnOrder">
         <pref key="1">
@@ -30,13 +33,21 @@
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>210050</Long>
+        <Long>268879</Long>
+    </pref>
+    <pref key="ExportTabDialog.SelectTiersMode">
+        <String>Tier</String>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
-        <Float>221.1472</Float>
+        <Float>220.99998</Float>
     </pref>
+    <prefList key="ExportTabDialog.TierOrder">
+        <String>Participant</String>
+        <String>DF</String>
+        <String>Furhat</String>
+    </prefList>
     <pref key="LayoutManager.CurrentMode">
-        <Int>3</Int>
+        <Int>2</Int>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="Participant">
@@ -81,6 +92,11 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
+    <prefList key="ExportTabDialog.selectedTiers">
+        <String>Participant</String>
+        <String>DF</String>
+        <String>Furhat</String>
+    </prefList>
     <pref key="SegmentationViewer.ActiveTier">
         <String>DF</String>
     </pref>
@@ -105,15 +121,18 @@
     <pref key="FrameLocation">
         <Object class="java.awt.Point">0,25</Object>
     </pref>
+    <pref key="Interlinear.SelectionOnly">
+        <Boolean>false</Boolean>
+    </pref>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
     <pref key="LayoutManager.AudioSplitPaneDividerLocation">
         <Int>23</Int>
     </pref>
     <prefList key="TranscriptionTable.ColumnTypes">
-        <String>DF</String>
+        <String>Talk</String>
     </prefList>
     <pref key="SelectionBeginTime">
-        <Long>209042</Long>
+        <Long>266047</Long>
     </pref>
     <pref key="TM.SignalViewer.ZoomLevel">
         <Float>5.0</Float>
@@ -137,19 +156,27 @@
             <String>TEXT</String>
         </pref>
     </prefGroup>
+    <prefList key="Interlinear.TierOrder">
+        <String>Participant</String>
+        <String>DF</String>
+        <String>Furhat</String>
+    </prefList>
     <pref key="MediaControlRate">
         <Float>1.0</Float>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
-        <prefList key="DF">
-            <String>DF</String>
+        <prefList key="Furhat">
+            <String>Furhat</String>
+        </prefList>
+        <prefList key="Participant">
+            <String>Participant</String>
         </prefList>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>207523</Long>
+        <Long>265975</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>210050</Long>
+        <Long>266047</Long>
     </pref>
     <prefGroup key="TierColors">
         <pref key="Furhat">
@@ -168,10 +195,10 @@
         <String>Furhat</String>
     </prefList>
     <pref key="TranscriptionTable.LastActiveColumn">
-        <String>DF</String>
+        <String>Talk</String>
     </pref>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>313</Int>
+        <Int>196</Int>
     </pref>
     <prefList key="CommentViewer.Columns.Hidden">
         <String>Sender</String>
@@ -180,5 +207,6 @@
     <pref key="SegmentationManager.SelectedTabIndex">
         <Int>0</Int>
     </pref>
+    <prefList key="ExportTabDialog.HiddenTiers"/>
     <prefList key="TranscriptionTable.HiddenTiers"/>
 </preferences>

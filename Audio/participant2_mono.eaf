@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-08-30T16:33:47+01:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-08-31T07:45:01+01:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -293,13 +293,13 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11"
                 TIME_SLOT_REF1="ts40" TIME_SLOT_REF2="ts41">
-                <ANNOTATION_VALUE>Wha-</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>wha-</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12"
                 TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
-                <ANNOTATION_VALUE>Yes what are my options</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>yes what are my options</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -317,13 +317,13 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15"
                 TIME_SLOT_REF1="ts54" TIME_SLOT_REF2="ts55">
-                <ANNOTATION_VALUE>I would like-</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>i would like-</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16"
                 TIME_SLOT_REF1="ts56" TIME_SLOT_REF2="ts57">
-                <ANNOTATION_VALUE>I would like t-</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>i would like t-</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -413,7 +413,7 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a32"
                 TIME_SLOT_REF1="ts113" TIME_SLOT_REF2="ts114">
-                <ANNOTATION_VALUE>I have a bachelor</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>i have a bachelor</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -657,31 +657,31 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a102"
                 TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
-                <ANNOTATION_VALUE>Greeting</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>greeting</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a60"
                 TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
-                <ANNOTATION_VALUE>No voice recognized 1st</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>no voice recognized 1st</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a61"
                 TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
-                <ANNOTATION_VALUE>No match 1st</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>no match 1st</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a62"
                 TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
-                <ANNOTATION_VALUE>Give options</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>give options</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a63"
                 TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
-                <ANNOTATION_VALUE>Ask for advice need</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ask for advice need</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -693,25 +693,25 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a65"
                 TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
-                <ANNOTATION_VALUE>Ask open question</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ask open question</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a66"
                 TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
-                <ANNOTATION_VALUE>Give advice</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>give advice</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a67"
                 TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
-                <ANNOTATION_VALUE>No match 1st</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>no match 1st</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a68"
                 TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts42">
-                <ANNOTATION_VALUE>No match 2nd</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>no match 2nd</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -723,73 +723,73 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a70"
                 TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
-                <ANNOTATION_VALUE>Give options</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>give options</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a71"
                 TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts58">
-                <ANNOTATION_VALUE>No match 3rd</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>no match 3rd</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a72"
                 TIME_SLOT_REF1="ts61" TIME_SLOT_REF2="ts62">
-                <ANNOTATION_VALUE>Ask open question</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ask open question</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a73"
                 TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts68">
-                <ANNOTATION_VALUE>Give advice</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>give advice</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a74"
                 TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts72">
-                <ANNOTATION_VALUE>Ask if topic change</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ask if topic change</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a75"
                 TIME_SLOT_REF1="ts77" TIME_SLOT_REF2="ts78">
-                <ANNOTATION_VALUE>No voice recognized 1st</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>no voice recognized 1st</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a76"
                 TIME_SLOT_REF1="ts81" TIME_SLOT_REF2="ts84">
-                <ANNOTATION_VALUE>No match 1st</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>no match 1st</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a77"
                 TIME_SLOT_REF1="ts87" TIME_SLOT_REF2="ts88">
-                <ANNOTATION_VALUE>No voice recognizes 2nd</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>no voice recognizes 2nd</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a78"
                 TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts92">
-                <ANNOTATION_VALUE>No match 2nd</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>no match 2nd</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a79"
                 TIME_SLOT_REF1="ts95" TIME_SLOT_REF2="ts96">
-                <ANNOTATION_VALUE>No match 3rd</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>no match 3rd</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a80"
                 TIME_SLOT_REF1="ts101" TIME_SLOT_REF2="ts102">
-                <ANNOTATION_VALUE>Ask for topic</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ask for topic</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a81"
                 TIME_SLOT_REF1="ts107" TIME_SLOT_REF2="ts108">
-                <ANNOTATION_VALUE>Ask education</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ask education</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -801,115 +801,115 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a83"
                 TIME_SLOT_REF1="ts115" TIME_SLOT_REF2="ts116">
-                <ANNOTATION_VALUE>Ask positions</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ask positions</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a84"
                 TIME_SLOT_REF1="ts127" TIME_SLOT_REF2="ts128">
-                <ANNOTATION_VALUE>Ask experience</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ask experience</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a85"
                 TIME_SLOT_REF1="ts133" TIME_SLOT_REF2="ts134">
-                <ANNOTATION_VALUE>Repeat user info, ask open question</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ask open question</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a86"
                 TIME_SLOT_REF1="ts137" TIME_SLOT_REF2="ts138">
-                <ANNOTATION_VALUE>Ask for advice need</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ask for advice need</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a87"
                 TIME_SLOT_REF1="ts141" TIME_SLOT_REF2="ts142">
-                <ANNOTATION_VALUE>No match 1st</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>no match 1st</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a88"
                 TIME_SLOT_REF1="ts145" TIME_SLOT_REF2="ts146">
-                <ANNOTATION_VALUE>No match 2nd</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>no match 2nd</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a89"
                 TIME_SLOT_REF1="ts153" TIME_SLOT_REF2="ts154">
-                <ANNOTATION_VALUE>Give options</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>give options</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a90"
                 TIME_SLOT_REF1="ts159" TIME_SLOT_REF2="ts162">
-                <ANNOTATION_VALUE>No match 3rd</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>no match 3rd</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a91"
                 TIME_SLOT_REF1="ts167" TIME_SLOT_REF2="ts168">
-                <ANNOTATION_VALUE>Ask education</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ask education</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a92"
                 TIME_SLOT_REF1="ts171" TIME_SLOT_REF2="ts172">
-                <ANNOTATION_VALUE>Repeat user info, ask open question</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ask open question</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a93"
                 TIME_SLOT_REF1="ts175" TIME_SLOT_REF2="ts176">
-                <ANNOTATION_VALUE>Ask advice needs</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ask advice needs</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a94"
                 TIME_SLOT_REF1="ts179" TIME_SLOT_REF2="ts180">
-                <ANNOTATION_VALUE>Give options</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>give options</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a95"
                 TIME_SLOT_REF1="ts185" TIME_SLOT_REF2="ts186">
-                <ANNOTATION_VALUE>No voice recognized 1st</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>no voice recognized 1st</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a96"
                 TIME_SLOT_REF1="ts189" TIME_SLOT_REF2="ts190">
-                <ANNOTATION_VALUE>No voice recognized 2nd</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>no voice recognized 2nd</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a97"
                 TIME_SLOT_REF1="ts195" TIME_SLOT_REF2="ts196">
-                <ANNOTATION_VALUE>No voice recognized 3rd</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>no voice recognized 3rd</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a98"
                 TIME_SLOT_REF1="ts199" TIME_SLOT_REF2="ts200">
-                <ANNOTATION_VALUE>Give advice</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>give advice</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a99"
                 TIME_SLOT_REF1="ts203" TIME_SLOT_REF2="ts204">
-                <ANNOTATION_VALUE>Ask is topic change</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ask if topic change</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a100"
                 TIME_SLOT_REF1="ts211" TIME_SLOT_REF2="ts212">
-                <ANNOTATION_VALUE>No match 1st</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>no match 1st</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a101"
                 TIME_SLOT_REF1="ts221" TIME_SLOT_REF2="ts222">
-                <ANNOTATION_VALUE>Goodbye</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>goodbye</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>

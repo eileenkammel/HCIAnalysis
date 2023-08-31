@@ -1,112 +1,114 @@
-"DF",00:00:47.120,00:00:47.680,00:00:00.560,"FP"
-"DF",00:02:43.590,00:02:44.430,00:00:00.840,"SUB"
-"DF",00:03:20.230,00:03:20.603,00:00:00.373,"FP"
-"DF",00:03:56.670,00:03:57.164,00:00:00.494,"FP"
-"DF",00:04:20.500,00:04:20.990,00:00:00.490,"UP"
-"DF",00:04:51.370,00:04:51.850,00:00:00.480,"FP"
-"DF",00:04:53.810,00:04:54.700,00:00:00.890,"SUB"
-"DF",00:05:09.403,00:05:10.490,00:00:01.087,"UP"
-"DF",00:05:10.490,00:05:11.050,00:00:00.560,"FP"
-"DF",00:05:17.460,00:05:19.060,00:00:01.600,"REP"
-"DF",00:06:03.563,00:06:03.890,00:00:00.327,"FP"
-"DF",00:06:18.020,00:06:18.448,00:00:00.428,"FP"
-"DF",00:07:11.877,00:07:12.390,00:00:00.513,"FP"
-"DF",00:07:12.390,00:07:13.540,00:00:01.150,"UP"
-"Furhat",00:00:00.000,00:00:01.310,00:00:01.310,"greeting"
-"Furhat",00:00:06.639,00:00:07.647,00:00:01.008,"no voice recognized 1st"
-"Furhat",00:00:12.037,00:00:14.610,00:00:02.573,"no match 1st"
-"Furhat",00:00:26.372,00:00:31.613,00:00:05.241,"give options"
-"Furhat",00:00:35.518,00:00:46.589,00:00:11.071,"ask for advice need"
-"Furhat",00:00:50.327,00:00:51.538,00:00:01.211,"CR"
-"Furhat",00:00:54.760,00:00:59.530,00:00:04.770,"ask open question"
-"Furhat",00:01:02.100,00:01:18.840,00:00:16.740,"give advice"
-"Furhat",00:01:21.735,00:01:24.321,00:00:02.586,"no match 1st"
-"Furhat",00:01:28.475,00:01:31.550,00:00:03.075,"no match 2nd"
-"Furhat",00:01:35.321,00:01:36.130,00:00:00.809,"CR"
-"Furhat",00:01:39.591,00:01:46.813,00:00:07.222,"give options"
-"Furhat",00:01:49.706,00:01:54.084,00:00:04.378,"no match 3rd"
-"Furhat",00:02:01.505,00:02:04.993,00:00:03.488,"ask open question"
-"Furhat",00:02:10.862,00:02:34.908,00:00:24.046,"give advice"
-"Furhat",00:02:37.156,00:02:41.904,00:00:04.748,"ask if topic change"
-"Furhat",00:02:47.169,00:02:48.306,00:00:01.137,"no voice recognized 1st"
-"Furhat",00:02:51.488,00:02:54.160,00:00:02.672,"no match 1st"
-"Furhat",00:02:59.744,00:03:02.250,00:00:02.506,"no voice recognizes 2nd"
-"Furhat",00:03:06.293,00:03:09.522,00:00:03.229,"no match 2nd"
-"Furhat",00:03:14.528,00:03:19.010,00:00:04.482,"no match 3rd"
-"Furhat",00:03:24.833,00:03:27.053,00:00:02.220,"ask for topic"
-"Furhat",00:03:40.685,00:03:45.421,00:00:04.736,"ask education"
-"Furhat",00:03:48.303,00:03:49.910,00:00:01.607,"CR"
-"Furhat",00:03:52.889,00:03:55.999,00:00:03.110,"ask positions"
-"Furhat",00:04:16.733,00:04:18.981,00:00:02.248,"ask experience"
-"Furhat",00:04:23.660,00:04:30.783,00:00:07.123,"ask open question"
-"Furhat",00:04:34.201,00:04:38.045,00:00:03.844,"ask for advice need"
-"Furhat",00:04:41.328,00:04:43.969,00:00:02.641,"no match 1st"
-"Furhat",00:04:48.140,00:04:51.315,00:00:03.175,"no match 2nd"
-"Furhat",00:04:57.164,00:05:06.725,00:00:09.561,"give options"
-"Furhat",00:05:10.993,00:05:16.670,00:00:05.677,"no match 3rd"
-"Furhat",00:05:22.286,00:05:28.320,00:00:06.034,"ask education"
-"Furhat",00:05:33.275,00:05:40.627,00:00:07.352,"ask open question"
-"Furhat",00:05:45.612,00:05:49.551,00:00:03.939,"ask advice needs"
-"Furhat",00:05:53.161,00:06:03.170,00:00:10.009,"give options"
-"Furhat",00:06:08.573,00:06:09.642,00:00:01.069,"no voice recognized 1st"
-"Furhat",00:06:15.179,00:06:17.641,00:00:02.462,"no voice recognized 2nd"
-"Furhat",00:06:23.148,00:06:28.804,00:00:05.656,"no voice recognized 3rd"
-"Furhat",00:06:33.857,00:07:06.957,00:00:33.100,"give advice"
-"Furhat",00:07:09.354,00:07:11.209,00:00:01.855,"ask if topic change"
-"Furhat",00:07:16.203,00:07:18.785,00:00:02.582,"no match 1st"
-"Furhat",00:07:35.624,00:07:38.569,00:00:02.945,"goodbye"
-"Participant",00:00:09.821,00:00:10.753,00:00:00.932,"hello"
-"Participant",00:00:14.827,00:00:16.201,00:00:01.374,"what are my options"
-"Participant",00:00:23.403,00:00:24.774,00:00:01.371,"what are my options"
-"Participant",00:00:32.000,00:00:34.180,00:00:02.180,"I would like to talk about interviews"
-"Participant",00:00:47.120,00:00:48.920,00:00:01.800,"mh interview questions"
-"Participant",00:00:52.006,00:00:53.453,00:00:01.447,"interview questions"
-"Participant",00:01:00.117,00:01:00.712,00:00:00.595,"yes"
-"Participant",00:01:19.830,00:01:20.467,00:00:00.637,"yes"
-"Participant",00:01:24.620,00:01:26.896,00:00:02.276,"yes technical skills"
-"Participant",00:01:30.696,00:01:31.170,00:00:00.474,"wha-"
-"Participant",00:01:32.200,00:01:33.906,00:00:01.706,"yes what are my options"
-"Participant",00:01:36.741,00:01:38.156,00:00:01.415,"what are my options"
-"Participant",00:01:47.257,00:01:48.440,00:00:01.183,"technical test"
-"Participant",00:01:50.923,00:01:51.609,00:00:00.686,"i would like-"
-"Participant",00:01:51.987,00:01:52.764,00:00:00.777,"i would like t-"
-"Participant",00:01:55.500,00:01:58.775,00:00:03.275,"yes I would like to know about technical test"
-"Participant",00:02:09.301,00:02:10.082,00:00:00.781,"a lot"
-"Participant",00:02:12.254,00:02:12.758,00:00:00.504,"oh"
-"Participant",00:02:34.964,00:02:35.550,00:00:00.586,"no"
-"Participant",00:02:43.590,00:02:44.430,00:00:00.840,"n- yes"
-"Participant",00:02:48.725,00:02:50.260,00:00:01.535,"yes what are my options"
-"Participant",00:02:53.506,00:02:54.103,00:00:00.597,"what"
-"Participant",00:02:54.357,00:02:55.491,00:00:01.134,"what are my options"
-"Participant",00:03:02.871,00:03:05.019,00:00:02.148,"can you give me the options i have"
-"Participant",00:03:11.290,00:03:12.899,00:00:01.609,"can you give me the options"
-"Participant",00:03:20.233,00:03:22.854,00:00:02.621,"mh yes I would like to know my options"
-"Participant",00:03:29.403,00:03:30.200,00:00:00.797,"cv"
-"Participant",00:03:37.677,00:03:39.072,00:00:01.395,"ah resume resume"
-"Participant",00:03:45.829,00:03:46.708,00:00:00.879,"bachelor"
-"Participant",00:03:50.283,00:03:51.658,00:00:01.375,"i have a bachelor"
-"Participant",00:03:56.670,00:03:57.933,00:00:01.263,"ah five"
-"Participant",00:04:02.645,00:04:03.209,00:00:00.564,"five"
-"Participant",00:04:07.768,00:04:09.094,00:00:01.326,"five positions"
-"Participant",00:04:13.424,00:04:15.157,00:00:01.733,"i had five positions"
-"Participant",00:04:19.894,00:04:21.669,00:00:01.775,"twenty years"
-"Participant",00:04:31.786,00:04:32.700,00:00:00.914,"cannot write"
-"Participant",00:04:38.886,00:04:39.750,00:00:00.864,"how to write"
-"Participant",00:04:45.385,00:04:46.710,00:00:01.325,"how to write"
-"Participant",00:04:51.370,00:04:55.652,00:00:04.282,"mh can i ask him about how are what are my options"
-"Participant",00:05:07.400,00:05:12.290,00:00:04.890,"i would like to know how to ehm write the content"
-"Participant",00:05:16.913,00:05:20.638,00:00:03.725,"i want to know about about the content of my resume"
-"Participant",00:05:30.906,00:05:31.805,00:00:00.899,"bachelor"
-"Participant",00:05:42.853,00:05:44.020,00:00:01.167,"what are my options"
-"Participant",00:05:50.963,00:05:52.358,00:00:01.395,"what are my options"
-"Participant",00:06:03.580,00:06:05.472,00:00:01.892,"mh about cv structure"
-"Participant",00:06:09.803,00:06:11.113,00:00:01.310,"cv structure"
-"Participant",00:06:18.020,00:06:20.497,00:00:02.477,"ah yes cv structure"
-"Participant",00:06:29.543,00:06:32.040,00:00:02.497,"i would like to know about cv structure"
-"Participant",00:07:07.152,00:07:08.826,00:00:01.674,"no that is all"
-"Participant",00:07:11.941,00:07:14.694,00:00:02.753,"hm i am done thank you"
-"Participant",00:07:19.627,00:07:20.936,00:00:01.309,"that is all"
-"Participant",00:07:27.360,00:07:28.581,00:00:01.221,"i am done"
-"Participant",00:07:31.259,00:07:31.858,00:00:00.599,"no"
-"Participant",00:07:32.563,00:07:33.215,00:00:00.652,"no"
-"Participant",00:07:39.134,00:07:39.800,00:00:00.666,"thank you"
+speaker,start,end,duration,text
+Furhat,00:00:00.000,00:00:01.310,00:00:01.310,greeting
+Furhat,00:00:06.639,00:00:07.647,00:00:01.008,no voice recognized 1st
+Participant,00:00:09.821,00:00:10.753,00:00:00.932,hello
+Furhat,00:00:12.037,00:00:14.610,00:00:02.573,no match 1st
+Participant,00:00:14.827,00:00:16.201,00:00:01.374,what are my options
+Participant,00:00:23.403,00:00:24.774,00:00:01.371,what are my options
+Furhat,00:00:26.372,00:00:31.613,00:00:05.241,give options
+Participant,00:00:32.000,00:00:34.180,00:00:02.180,I would like to talk about interviews
+Furhat,00:00:35.518,00:00:46.589,00:00:11.071,ask for advice need
+DF,00:00:47.120,00:00:47.680,00:00:00.560,FP
+Participant,00:00:47.120,00:00:48.920,00:00:01.800,mh interview questions
+Furhat,00:00:50.327,00:00:51.538,00:00:01.211,CR
+Participant,00:00:52.006,00:00:53.453,00:00:01.447,interview questions
+Furhat,00:00:54.760,00:00:59.530,00:00:04.770,ask open question
+Participant,00:01:00.117,00:01:00.712,00:00:00.595,yes
+Furhat,00:01:02.100,00:01:18.840,00:00:16.740,give advice
+Participant,00:01:19.830,00:01:20.467,00:00:00.637,yes
+Furhat,00:01:21.735,00:01:24.321,00:00:02.586,no match 1st
+Participant,00:01:24.620,00:01:26.896,00:00:02.276,yes technical skills
+Furhat,00:01:28.475,00:01:31.550,00:00:03.075,no match 2nd
+Participant,00:01:30.696,00:01:31.170,00:00:00.474,wha-
+Participant,00:01:32.200,00:01:33.906,00:00:01.706,yes what are my options
+Furhat,00:01:35.321,00:01:36.130,00:00:00.809,CR
+Participant,00:01:36.741,00:01:38.156,00:00:01.415,what are my options
+Furhat,00:01:39.591,00:01:46.813,00:00:07.222,give options
+Participant,00:01:47.257,00:01:48.440,00:00:01.183,technical test
+Furhat,00:01:49.706,00:01:54.084,00:00:04.378,no match 3rd
+Participant,00:01:50.923,00:01:51.609,00:00:00.686,i would like-
+Participant,00:01:51.987,00:01:52.764,00:00:00.777,i would like t-
+Participant,00:01:55.500,00:01:58.775,00:00:03.275,yes I would like to know about technical test
+Furhat,00:02:01.505,00:02:04.993,00:00:03.488,ask open question
+Participant,00:02:09.301,00:02:10.082,00:00:00.781,a lot
+Furhat,00:02:10.862,00:02:34.908,00:00:24.046,give advice
+Participant,00:02:12.254,00:02:12.758,00:00:00.504,oh
+Participant,00:02:34.964,00:02:35.550,00:00:00.586,no
+Furhat,00:02:37.156,00:02:41.904,00:00:04.748,ask if topic change
+DF,00:02:43.590,00:02:44.430,00:00:00.840,SUB
+Participant,00:02:43.590,00:02:44.430,00:00:00.840,n- yes
+Furhat,00:02:47.169,00:02:48.306,00:00:01.137,no voice recognized 1st
+Participant,00:02:48.725,00:02:50.260,00:00:01.535,yes what are my options
+Furhat,00:02:51.488,00:02:54.160,00:00:02.672,no match 1st
+Participant,00:02:53.506,00:02:54.103,00:00:00.597,what
+Participant,00:02:54.357,00:02:55.491,00:00:01.134,what are my options
+Furhat,00:02:59.744,00:03:02.250,00:00:02.506,no voice recognizes 2nd
+Participant,00:03:02.871,00:03:05.019,00:00:02.148,can you give me the options i have
+Furhat,00:03:06.293,00:03:09.522,00:00:03.229,no match 2nd
+Participant,00:03:11.290,00:03:12.899,00:00:01.609,can you give me the options
+Furhat,00:03:14.528,00:03:19.010,00:00:04.482,no match 3rd
+DF,00:03:20.230,00:03:20.603,00:00:00.373,FP
+Participant,00:03:20.233,00:03:22.854,00:00:02.621,mh yes I would like to know my options
+Furhat,00:03:24.833,00:03:27.053,00:00:02.220,ask for topic
+Participant,00:03:29.403,00:03:30.200,00:00:00.797,cv
+Participant,00:03:37.677,00:03:39.072,00:00:01.395,ah resume resume
+Furhat,00:03:40.685,00:03:45.421,00:00:04.736,ask education
+Participant,00:03:45.829,00:03:46.708,00:00:00.879,bachelor
+Furhat,00:03:48.303,00:03:49.910,00:00:01.607,CR
+Participant,00:03:50.283,00:03:51.658,00:00:01.375,i have a bachelor
+Furhat,00:03:52.889,00:03:55.999,00:00:03.110,ask positions
+DF,00:03:56.670,00:03:57.164,00:00:00.494,FP
+Participant,00:03:56.670,00:03:57.933,00:00:01.263,ah five
+Participant,00:04:02.645,00:04:03.209,00:00:00.564,five
+Participant,00:04:07.768,00:04:09.094,00:00:01.326,five positions
+Participant,00:04:13.424,00:04:15.157,00:00:01.733,i had five positions
+Furhat,00:04:16.733,00:04:18.981,00:00:02.248,ask experience
+Participant,00:04:19.894,00:04:21.669,00:00:01.775,twenty years
+DF,00:04:20.500,00:04:20.990,00:00:00.490,UP
+Furhat,00:04:23.660,00:04:30.783,00:00:07.123,ask open question
+Participant,00:04:31.786,00:04:32.700,00:00:00.914,cannot write
+Furhat,00:04:34.201,00:04:38.045,00:00:03.844,ask for advice need
+Participant,00:04:38.886,00:04:39.750,00:00:00.864,how to write
+Furhat,00:04:41.328,00:04:43.969,00:00:02.641,no match 1st
+Participant,00:04:45.385,00:04:46.710,00:00:01.325,how to write
+Furhat,00:04:48.140,00:04:51.315,00:00:03.175,no match 2nd
+DF,00:04:51.370,00:04:51.850,00:00:00.480,FP
+Participant,00:04:51.370,00:04:55.652,00:00:04.282,mh can i ask him about how are what are my options
+DF,00:04:53.810,00:04:54.700,00:00:00.890,SUB
+Furhat,00:04:57.164,00:05:06.725,00:00:09.561,give options
+Participant,00:05:07.400,00:05:12.290,00:00:04.890,i would like to know how to ehm write the content
+DF,00:05:09.403,00:05:10.490,00:00:01.087,UP
+DF,00:05:10.490,00:05:11.050,00:00:00.560,FP
+Furhat,00:05:10.993,00:05:16.670,00:00:05.677,no match 3rd
+Participant,00:05:16.913,00:05:20.638,00:00:03.725,i want to know about about the content of my resume
+DF,00:05:17.460,00:05:19.060,00:00:01.600,REP
+Furhat,00:05:22.286,00:05:28.320,00:00:06.034,ask education
+Participant,00:05:30.906,00:05:31.805,00:00:00.899,bachelor
+Furhat,00:05:33.275,00:05:40.627,00:00:07.352,ask open question
+Participant,00:05:42.853,00:05:44.020,00:00:01.167,what are my options
+Furhat,00:05:45.612,00:05:49.551,00:00:03.939,ask advice needs
+Participant,00:05:50.963,00:05:52.358,00:00:01.395,what are my options
+Furhat,00:05:53.161,00:06:03.170,00:00:10.009,give options
+DF,00:06:03.563,00:06:03.890,00:00:00.327,FP
+Participant,00:06:03.580,00:06:05.472,00:00:01.892,mh about cv structure
+Furhat,00:06:08.573,00:06:09.642,00:00:01.069,no voice recognized 1st
+Participant,00:06:09.803,00:06:11.113,00:00:01.310,cv structure
+Furhat,00:06:15.179,00:06:17.641,00:00:02.462,no voice recognized 2nd
+DF,00:06:18.020,00:06:18.448,00:00:00.428,FP
+Participant,00:06:18.020,00:06:20.497,00:00:02.477,ah yes cv structure
+Furhat,00:06:23.148,00:06:28.804,00:00:05.656,no voice recognized 3rd
+Participant,00:06:29.543,00:06:32.040,00:00:02.497,i would like to know about cv structure
+Furhat,00:06:33.857,00:07:06.957,00:00:33.100,give advice
+Participant,00:07:07.152,00:07:08.826,00:00:01.674,no that is all
+Furhat,00:07:09.354,00:07:11.209,00:00:01.855,ask if topic change
+DF,00:07:11.877,00:07:12.390,00:00:00.513,FP
+Participant,00:07:11.941,00:07:14.694,00:00:02.753,hm i am done thank you
+DF,00:07:12.390,00:07:13.540,00:00:01.150,UP
+Furhat,00:07:16.203,00:07:18.785,00:00:02.582,no match 1st
+Participant,00:07:19.627,00:07:20.936,00:00:01.309,that is all
+Participant,00:07:27.360,00:07:28.581,00:00:01.221,i am done
+Participant,00:07:31.259,00:07:31.858,00:00:00.599,no
+Participant,00:07:32.563,00:07:33.215,00:00:00.652,no
+Furhat,00:07:35.624,00:07:38.569,00:00:02.945,goodbye
+Participant,00:07:39.134,00:07:39.800,00:00:00.666,thank you
+speaker,start,end,duration,text

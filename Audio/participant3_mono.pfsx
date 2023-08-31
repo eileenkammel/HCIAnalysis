@@ -2,11 +2,11 @@
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <pref key="FrameSize">
-        <Object class="java.awt.Dimension">3440,1415</Object>
+        <Object class="java.awt.Dimension">1718,1415</Object>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="1">
-            <Int>3025</Int>
+            <Int>1288</Int>
         </pref>
     </prefGroup>
     <pref key="LayoutManager.SelectedTabIndex">
@@ -15,11 +15,14 @@
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
+    <prefList key="Interlinear.VisibleTiers">
+        <String>Furhat</String>
+    </prefList>
     <pref key="MultiTierViewer.ActiveTierName">
         <String>Participant</String>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>10</Int>
+        <Int>46</Int>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnOrder">
         <pref key="1">
@@ -27,13 +30,21 @@
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>95430</Long>
+        <Long>151322</Long>
+    </pref>
+    <pref key="ExportTabDialog.SelectTiersMode">
+        <String>Tier</String>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
         <Float>100.0</Float>
     </pref>
+    <prefList key="ExportTabDialog.TierOrder">
+        <String>Participant</String>
+        <String>DF</String>
+        <String>Furhat</String>
+    </prefList>
     <pref key="LayoutManager.CurrentMode">
-        <Int>3</Int>
+        <Int>2</Int>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="Participant">
@@ -78,6 +89,11 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
+    <prefList key="ExportTabDialog.selectedTiers">
+        <String>Participant</String>
+        <String>DF</String>
+        <String>Furhat</String>
+    </prefList>
     <pref key="SegmentationViewer.ActiveTier">
         <String>DF</String>
     </pref>
@@ -102,15 +118,18 @@
     <pref key="FrameLocation">
         <Object class="java.awt.Point">0,25</Object>
     </pref>
+    <pref key="Interlinear.SelectionOnly">
+        <Boolean>false</Boolean>
+    </pref>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
     <pref key="LayoutManager.AudioSplitPaneDividerLocation">
         <Int>110</Int>
     </pref>
     <prefList key="TranscriptionTable.ColumnTypes">
-        <String>DF</String>
+        <String>Talk</String>
     </prefList>
     <pref key="SelectionBeginTime">
-        <Long>94850</Long>
+        <Long>148709</Long>
     </pref>
     <pref key="TM.SignalViewer.ZoomLevel">
         <Float>5.0</Float>
@@ -134,19 +153,27 @@
             <String>TEXT</String>
         </pref>
     </prefGroup>
+    <prefList key="Interlinear.TierOrder">
+        <String>Participant</String>
+        <String>DF</String>
+        <String>Furhat</String>
+    </prefList>
     <pref key="MediaControlRate">
         <Float>1.0</Float>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
-        <prefList key="DF">
-            <String>DF</String>
+        <prefList key="Furhat">
+            <String>Furhat</String>
+        </prefList>
+        <prefList key="Participant">
+            <String>Participant</String>
         </prefList>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>0</Long>
+        <Long>145349</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>95430</Long>
+        <Long>148709</Long>
     </pref>
     <prefGroup key="TierColors">
         <pref key="Furhat">
@@ -165,10 +192,10 @@
         <String>Furhat</String>
     </prefList>
     <pref key="TranscriptionTable.LastActiveColumn">
-        <String>DF</String>
+        <String>Talk</String>
     </pref>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>334</Int>
+        <Int>196</Int>
     </pref>
     <prefList key="CommentViewer.Columns.Hidden">
         <String>Sender</String>
@@ -177,5 +204,6 @@
     <pref key="SegmentationManager.SelectedTabIndex">
         <Int>0</Int>
     </pref>
+    <prefList key="ExportTabDialog.HiddenTiers"/>
     <prefList key="TranscriptionTable.HiddenTiers"/>
 </preferences>

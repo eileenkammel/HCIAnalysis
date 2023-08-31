@@ -15,11 +15,14 @@
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
+    <prefList key="Interlinear.VisibleTiers">
+        <String>Furhat</String>
+    </prefList>
     <pref key="MultiTierViewer.ActiveTierName">
         <String>Participant</String>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>68</Int>
+        <Int>79</Int>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnOrder">
         <pref key="1">
@@ -27,11 +30,19 @@
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>176543</Long>
+        <Long>198532</Long>
+    </pref>
+    <pref key="ExportTabDialog.SelectTiersMode">
+        <String>Tier</String>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
         <Float>100.0</Float>
     </pref>
+    <prefList key="ExportTabDialog.TierOrder">
+        <String>Participant</String>
+        <String>DF</String>
+        <String>Furhat</String>
+    </prefList>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
@@ -78,6 +89,11 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
+    <prefList key="ExportTabDialog.selectedTiers">
+        <String>Participant</String>
+        <String>DF</String>
+        <String>Furhat</String>
+    </prefList>
     <pref key="SegmentationViewer.ActiveTier">
         <String>DF</String>
     </pref>
@@ -102,6 +118,9 @@
     <pref key="FrameLocation">
         <Object class="java.awt.Point">0,25</Object>
     </pref>
+    <pref key="Interlinear.SelectionOnly">
+        <Boolean>false</Boolean>
+    </pref>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
     <pref key="LayoutManager.AudioSplitPaneDividerLocation">
         <Int>175</Int>
@@ -110,7 +129,7 @@
         <String>Talk</String>
     </prefList>
     <pref key="SelectionBeginTime">
-        <Long>175086</Long>
+        <Long>196051</Long>
     </pref>
     <pref key="TM.SignalViewer.ZoomLevel">
         <Float>5.0</Float>
@@ -134,6 +153,11 @@
             <String>TEXT</String>
         </pref>
     </prefGroup>
+    <prefList key="Interlinear.TierOrder">
+        <String>Participant</String>
+        <String>DF</String>
+        <String>Furhat</String>
+    </prefList>
     <pref key="MediaControlRate">
         <Float>1.0</Float>
     </pref>
@@ -146,10 +170,10 @@
         </prefList>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>171726</Long>
+        <Long>192691</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>175086</Long>
+        <Long>196051</Long>
     </pref>
     <prefGroup key="TierColors">
         <pref key="Furhat">
@@ -180,5 +204,6 @@
     <pref key="SegmentationManager.SelectedTabIndex">
         <Int>0</Int>
     </pref>
+    <prefList key="ExportTabDialog.HiddenTiers"/>
     <prefList key="TranscriptionTable.HiddenTiers"/>
 </preferences>
