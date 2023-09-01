@@ -1,0 +1,7 @@
+participant_no,words,utterances,disfluencies,disfluencies_histo,mean_words_per_utterance,mean_dfs_per_utterance,mean_dfs_per_word
+2,202,55,14,"{'FP': 8, 'SUB': 2, 'UP': 3, 'REP': 1}",3.673,0.255,0.069
+3,96,13,10,"{' FP': 1, 'FP': 7, 'ART': 1, 'UP': 1}",7.385,0.769,0.104
+4,87,28,1,{'FP': 1},3.107,0.036,0.011
+5,312,28,27,"{'REP': 7, 'FP': 16, 'SUB': 3, 'UP': 1}",11.143,0.964,0.087
+6,161,31,10,"{'FP': 6, 'SUB': 1, 'UP': 2, 'CD': 1}",5.194,0.323,0.062
+7,304,35,8,"{'FP': 7, 'SUB': 1}",8.686,0.229,0.026

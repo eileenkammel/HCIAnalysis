@@ -36,7 +36,7 @@
         <String>Tier</String>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
-        <Float>235.64064</Float>
+        <Float>100.0</Float>
     </pref>
     <prefList key="ExportTabDialog.TierOrder">
         <String>Participant</String>
@@ -46,6 +46,17 @@
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="Participant">
+            <Object class="java.awt.Color">160,90,0</Object>
+        </pref>
+        <pref key="Furhat">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="DF">
+            <Object class="java.awt.Color">0,90,160</Object>
+        </pref>
+    </prefGroup>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Sender">
             <Int>0</Int>

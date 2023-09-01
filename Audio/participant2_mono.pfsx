@@ -9,6 +9,11 @@
             <Int>1284</Int>
         </pref>
     </prefGroup>
+    <prefList key="ExportPraatDialog.selectedTiers">
+        <String>Participant</String>
+        <String>DF</String>
+        <String>Furhat</String>
+    </prefList>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>0</Int>
     </pref>
@@ -26,8 +31,11 @@
     <pref key="MultiTierViewer.ActiveTierName">
         <String>Participant</String>
     </pref>
+    <pref key="ExportPraatDialog.SelectTiersMode">
+        <String>Tier</String>
+    </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>4</Int>
+        <Int>-1</Int>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnOrder">
         <pref key="1">
@@ -35,7 +43,7 @@
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>10753</Long>
+        <Long>0</Long>
     </pref>
     <pref key="ExportTabDialog.SelectTiersMode">
         <String>Tier</String>
@@ -121,7 +129,7 @@
         <Float>1.0</Float>
     </pref>
     <pref key="FrameLocation">
-        <Object class="java.awt.Point">204,117</Object>
+        <Object class="java.awt.Point">260,25</Object>
     </pref>
     <pref key="Interlinear.SelectionOnly">
         <Boolean>false</Boolean>
@@ -133,8 +141,13 @@
     <prefList key="TranscriptionTable.ColumnTypes">
         <String>Talk</String>
     </prefList>
+    <prefList key="ExportPraatDialog.TierOrder">
+        <String>Participant</String>
+        <String>DF</String>
+        <String>Furhat</String>
+    </prefList>
     <pref key="SelectionBeginTime">
-        <Long>9821</Long>
+        <Long>0</Long>
     </pref>
     <pref key="TM.SignalViewer.ZoomLevel">
         <Float>5.0</Float>
@@ -197,12 +210,13 @@
         <String>Furhat</String>
     </prefList>
     <pref key="TranscriptionTable.LastActiveColumn">
-        <String>Talk</String>
+        <String/>
     </pref>
     <pref key="LayoutManager.SplitPaneDividerLocation">
         <Int>196</Int>
     </pref>
     <prefList key="ExportTabDialog.LastSelectedItems"/>
+    <prefList key="ExportPraatDialog.HiddenTiers"/>
     <prefList key="CommentViewer.Columns.Hidden">
         <String>Sender</String>
         <String>Recipient</String>
