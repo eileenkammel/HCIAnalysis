@@ -40,3 +40,9 @@ class TestAnalysis:
         disfluencies = count_disfluencies(test_df)
         words = count_words(test_df)
         assert get_mean_dfs_per_word(disfluencies, words) == 0.069
+    
+    def test_total_talk_duration(self, test_df):
+        test_df["start"] = pd.to_timedelta(test_df["start"])
+        test_df["end"] = pd.to_timedelta(test_df["end"])
+        test_df["duration"] = pd.to_timedelta(test_df["duration"])
+        assert total_talk_duration(test_df, 2) == [2, pd.Timedelta('0 days 00:01:22.101000'), pd.Timedelta('0 days 00:03:51.247000')]
