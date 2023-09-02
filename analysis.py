@@ -50,7 +50,11 @@ def total_talk_duration(transcript_df, participant_no):
                                          == "Participant", "duration"].sum()
     furhat_talk = transcript_df.loc[transcript_df["speaker"]
                                     == "Furhat", "duration"].sum()
-    return [participant_no, participant_talk, furhat_talk]
+    return {
+        "participant_no": participant_no,
+        "participant_talk": participant_talk,
+        "furhat_talk": furhat_talk
+    }
 
 
 def analyze_transcript(transcript_df, participant_no):
@@ -103,11 +107,4 @@ def analize_all(path_to_trancripts):
     total_talk_duration.to_csv("total_talk_duration.csv", index=False)
 
 
-#analize_all("/Users/eileen/HCIAnalysis/Transcripts")
-
-#load transcript p2
-transcript_df = pd.read_csv("/Users/eileen/HCIAnalysis/Transcripts/p2_transcript.csv", sep=",", header=0)
-transcript_df["start"] = pd.to_timedelta(transcript_df["start"])
-transcript_df["end"] = pd.to_timedelta(transcript_df["end"])
-transcript_df["duration"] = pd.to_timedelta(transcript_df["duration"])
-print(total_talk_duration(transcript_df, 2))
+analize_all("/Users/eileen/HCIAnalysis/Transcripts")
