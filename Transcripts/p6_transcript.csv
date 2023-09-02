@@ -1,68 +1,124 @@
 speaker,start,end,duration,text
-Furhat,0 days 00:00:00.177000,0 days 00:00:01.624000,0 days 00:00:01.447000,greeting
-Participant,0 days 00:00:02.760000,0 days 00:00:06.870000,0 days 00:00:04.110000,ehm i'm fine actually so what are my opti-
-DF,0 days 00:00:02.826000,0 days 00:00:03.459000,0 days 00:00:00.633000,FP
-Furhat,0 days 00:00:06.497000,0 days 00:00:08.990000,0 days 00:00:02.493000,no match 1st
-Participant,0 days 00:00:08.199000,0 days 00:00:08.995000,0 days 00:00:00.796000,what
-Participant,0 days 00:00:09.533000,0 days 00:00:10.893000,0 days 00:00:01.360000,what are my options
-Furhat,0 days 00:00:12.078000,0 days 00:00:17.343000,0 days 00:00:05.265000,give options
-Participant,0 days 00:00:19.120000,0 days 00:00:20.231000,0 days 00:00:01.111000,interviews
-Furhat,0 days 00:00:21.742000,0 days 00:00:22.970000,0 days 00:00:01.228000,CR
-Participant,0 days 00:00:23.121000,0 days 00:00:24.123000,0 days 00:00:01.002000,interviews
-Furhat,0 days 00:00:25.146000,0 days 00:00:37.770000,0 days 00:00:12.624000,ask for advice need
-Participant,0 days 00:00:39.770000,0 days 00:00:44.732000,0 days 00:00:04.962000,it was eh i- it would be nice if you say something about the preparation
-DF,0 days 00:00:39.778000,0 days 00:00:41.185000,0 days 00:00:01.407000,SUB
-Furhat,0 days 00:00:46.637000,0 days 00:00:48.310000,0 days 00:00:01.673000,CR
-Participant,0 days 00:00:49.144000,0 days 00:00:50.245000,0 days 00:00:01.101000,preparation
-Furhat,0 days 00:00:51.336000,0 days 00:00:54.364000,0 days 00:00:03.028000,ask open question
-Participant,0 days 00:00:55.929000,0 days 00:00:57.606000,0 days 00:00:01.677000,what i think about it
-Furhat,0 days 00:00:58.898000,0 days 00:01:16.313000,0 days 00:00:17.415000,give advice
-DF,0 days 00:01:17.477000,0 days 00:01:19.042000,0 days 00:00:01.565000,FP
-Participant,0 days 00:01:17.477000,0 days 00:01:24.577000,0 days 00:00:07.100000,ehm eh yes how can i react when i'm nervous
-DF,0 days 00:01:19.046000,0 days 00:01:19.933000,0 days 00:00:00.887000,UP
-Furhat,0 days 00:01:25.750000,0 days 00:01:28.296000,0 days 00:00:02.546000,no match 1st
-Participant,0 days 00:01:28.369000,0 days 00:01:29.685000,0 days 00:00:01.316000,what are my options
-Participant,0 days 00:01:33.364000,0 days 00:01:34.637000,0 days 00:00:01.273000,what are my opt-
-Furhat,0 days 00:01:34.064000,0 days 00:01:34.766000,0 days 00:00:00.702000,no voice recognized 1st
-Participant,0 days 00:01:35.393000,0 days 00:01:37.562000,0 days 00:00:02.169000,what are my options
-Furhat,0 days 00:01:38.974000,0 days 00:01:45.351000,0 days 00:00:06.377000,give options
-Participant,0 days 00:01:50.430000,0 days 00:01:51.140000,0 days 00:00:00.710000,what
-Furhat,0 days 00:01:50.590000,0 days 00:01:53.092000,0 days 00:00:02.502000,no voice recognized 2nd
-Participant,0 days 00:01:51.691000,0 days 00:01:52.490000,0 days 00:00:00.799000,what are my
-DF,0 days 00:01:53.313000,0 days 00:01:53.462000,0 days 00:00:00.149000,FP
-Participant,0 days 00:01:53.313000,0 days 00:01:57.800000,0 days 00:00:04.487000,eh yes i can what are my options
-Furhat,0 days 00:01:58.761000,0 days 00:02:06.014000,0 days 00:00:07.253000,give options
-DF,0 days 00:02:10.487000,0 days 00:02:10.750000,0 days 00:00:00.263000,FP
-Participant,0 days 00:02:10.487000,0 days 00:02:13.930000,0 days 00:00:03.443000,eh what technical test you are talking about
-Furhat,0 days 00:02:11.520000,0 days 00:02:16.310000,0 days 00:00:04.790000,no voice recognized 3rd
-Participant,0 days 00:02:18.003000,0 days 00:02:20.676000,0 days 00:00:02.673000,eh what are my options
-DF,0 days 00:02:18.003000,0 days 00:02:18.477000,0 days 00:00:00.474000,FP
-Furhat,0 days 00:02:21.579000,0 days 00:02:27.901000,0 days 00:00:06.322000,give options
-DF,0 days 00:02:31.916000,0 days 00:02:43.379000,0 days 00:00:11.463000,CD
-Participant,0 days 00:02:31.916000,0 days 00:02:43.379000,0 days 00:00:11.463000,how does a technical question how does th- this te- eh technical int- the technical interview how does it look like
-Furhat,0 days 00:02:35.860000,0 days 00:02:39.222000,0 days 00:00:03.362000,no match 2nd
-Furhat,0 days 00:02:44.551000,0 days 00:02:49.038000,0 days 00:00:04.487000,no voice recognized 3rd
-Participant,0 days 00:02:51.239000,0 days 00:02:53.286000,0 days 00:00:02.047000,what are my options
-Furhat,0 days 00:02:54.556000,0 days 00:02:55.141000,0 days 00:00:00.585000,CR
-Participant,0 days 00:02:56.516000,0 days 00:02:58.755000,0 days 00:00:02.239000,what are my options
-Furhat,0 days 00:02:59.849000,0 days 00:03:06.839000,0 days 00:00:06.990000,give options
-Participant,0 days 00:03:07.027000,0 days 00:03:10.110000,0 days 00:00:03.083000,yes technical test what is that
-Participant,0 days 00:03:12.688000,0 days 00:03:14.218000,0 days 00:00:01.530000,the technical test
-Furhat,0 days 00:03:15.370000,0 days 00:03:16.485000,0 days 00:00:01.115000,CR
-Participant,0 days 00:03:17.896000,0 days 00:03:21.660000,0 days 00:00:03.764000,technical test i don't understand wha-
-Furhat,0 days 00:03:21.470000,0 days 00:03:26.110000,0 days 00:00:04.640000,ask open question
-Participant,0 days 00:03:22.687000,0 days 00:03:23.070000,0 days 00:00:00.383000,yeah
-Participant,0 days 00:03:27.529000,0 days 00:03:30.750000,0 days 00:00:03.221000,oh ehm i did a-
-DF,0 days 00:03:28.178000,0 days 00:03:29.042000,0 days 00:00:00.864000,FP
-DF,0 days 00:03:29.042000,0 days 00:03:30.050000,0 days 00:00:01.008000,UP
-Furhat,0 days 00:03:30.530000,0 days 00:03:52.441000,0 days 00:00:21.911000,give advice
-Participant,0 days 00:03:37.248000,0 days 00:03:37.986000,0 days 00:00:00.738000,ah okay
-Participant,0 days 00:03:53.208000,0 days 00:03:56.345000,0 days 00:00:03.137000,thank you you helped me very much
-Furhat,0 days 00:03:55.759000,0 days 00:03:58.297000,0 days 00:00:02.538000,no match 1st
-Participant,0 days 00:04:00.592000,0 days 00:04:03.820000,0 days 00:00:03.228000,ah okay okay thank you very much
-Furhat,0 days 00:04:03.606000,0 days 00:04:10.851000,0 days 00:00:07.245000,give options
-Participant,0 days 00:04:13.167000,0 days 00:04:14.832000,0 days 00:00:01.665000,no thank you
-Furhat,0 days 00:04:16.255000,0 days 00:04:20.193000,0 days 00:00:03.938000,ask if topic change
-Participant,0 days 00:04:22.179000,0 days 00:04:24.866000,0 days 00:00:02.687000,thank you very much
-Furhat,0 days 00:04:26.047000,0 days 00:04:28.879000,0 days 00:00:02.832000,goodbye
-Participant,0 days 00:04:29.427000,0 days 00:04:30.690000,0 days 00:00:01.263000,have a nice day
+Furhat,00:00:00.177,00:00:01.624,00:00:01.447,greeting
+Silence,00:00:01.624,00:00:02.760,00:00:01.136,silence
+Participant,00:00:02.760,00:00:06.870,00:00:04.110,ehm i'm fine actually so what are my opti-
+DF,00:00:02.826,00:00:03.459,00:00:00.633,FP
+Furhat,00:00:06.497,00:00:08.990,00:00:02.493,no match 1st
+Overlap,00:00:06.497,00:00:06.870,00:00:00.373,overlap
+Overlap,00:00:08.199,00:00:08.990,00:00:00.791,overlap
+Participant,00:00:08.199,00:00:08.995,00:00:00.796,what
+Silence,00:00:08.995,00:00:09.533,00:00:00.538,silence
+Participant,00:00:09.533,00:00:10.893,00:00:01.360,what are my options
+Silence,00:00:10.893,00:00:12.078,00:00:01.185,silence
+Furhat,00:00:12.078,00:00:17.343,00:00:05.265,give options
+Silence,00:00:17.343,00:00:19.120,00:00:01.777,silence
+Participant,00:00:19.120,00:00:20.231,00:00:01.111,interviews
+Silence,00:00:20.231,00:00:21.742,00:00:01.511,silence
+Furhat,00:00:21.742,00:00:22.970,00:00:01.228,CR
+Silence,00:00:22.970,00:00:23.121,00:00:00.151,silence
+Participant,00:00:23.121,00:00:24.123,00:00:01.002,interviews
+Silence,00:00:24.123,00:00:25.146,00:00:01.023,silence
+Furhat,00:00:25.146,00:00:37.770,00:00:12.624,ask for advice need
+Silence,00:00:37.770,00:00:39.770,00:00:02.000,silence
+Participant,00:00:39.770,00:00:44.732,00:00:04.962,it was eh i- it would be nice if you say something about the preparation
+DF,00:00:39.778,00:00:41.185,00:00:01.407,SUB
+Silence,00:00:44.732,00:00:46.637,00:00:01.905,silence
+Furhat,00:00:46.637,00:00:48.310,00:00:01.673,CR
+Silence,00:00:48.310,00:00:49.144,00:00:00.834,silence
+Participant,00:00:49.144,00:00:50.245,00:00:01.101,preparation
+Silence,00:00:50.245,00:00:51.336,00:00:01.091,silence
+Furhat,00:00:51.336,00:00:54.364,00:00:03.028,ask open question
+Silence,00:00:54.364,00:00:55.929,00:00:01.565,silence
+Participant,00:00:55.929,00:00:57.606,00:00:01.677,what i think about it
+Silence,00:00:57.606,00:00:58.898,00:00:01.292,silence
+Furhat,00:00:58.898,00:01:16.313,00:00:17.415,give advice
+Silence,00:01:16.313,00:01:17.477,00:00:01.164,silence
+DF,00:01:17.477,00:01:19.042,00:00:01.565,FP
+Participant,00:01:17.477,00:01:24.577,00:00:07.100,ehm eh yes how can i react when i'm nervous
+DF,00:01:19.046,00:01:19.933,00:00:00.887,UP
+Silence,00:01:24.577,00:01:25.750,00:00:01.173,silence
+Furhat,00:01:25.750,00:01:28.296,00:00:02.546,no match 1st
+Silence,00:01:28.296,00:01:28.369,00:00:00.073,silence
+Participant,00:01:28.369,00:01:29.685,00:00:01.316,what are my options
+Silence,00:01:29.685,00:01:33.364,00:00:03.679,silence
+Participant,00:01:33.364,00:01:34.637,00:00:01.273,what are my opt-
+Furhat,00:01:34.064,00:01:34.766,00:00:00.702,no voice recognized 1st
+Overlap,00:01:34.064,00:01:34.637,00:00:00.573,overlap
+Silence,00:01:34.766,00:01:35.393,00:00:00.627,silence
+Participant,00:01:35.393,00:01:37.562,00:00:02.169,what are my options
+Silence,00:01:37.562,00:01:38.974,00:00:01.412,silence
+Furhat,00:01:38.974,00:01:45.351,00:00:06.377,give options
+Silence,00:01:45.351,00:01:50.430,00:00:05.079,silence
+Participant,00:01:50.430,00:01:51.140,00:00:00.710,what
+Overlap,00:01:50.590,00:01:51.140,00:00:00.550,overlap
+Furhat,00:01:50.590,00:01:53.092,00:00:02.502,no voice recognized 2nd
+Participant,00:01:51.691,00:01:52.490,00:00:00.799,what are my
+Overlap,00:01:51.691,00:01:52.490,00:00:00.799,overlap
+Silence,00:01:53.092,00:01:53.313,00:00:00.221,silence
+DF,00:01:53.313,00:01:53.462,00:00:00.149,FP
+Participant,00:01:53.313,00:01:57.800,00:00:04.487,eh yes i can what are my options
+Silence,00:01:57.800,00:01:58.761,00:00:00.961,silence
+Furhat,00:01:58.761,00:02:06.014,00:00:07.253,give options
+Silence,00:02:06.014,00:02:10.487,00:00:04.473,silence
+DF,00:02:10.487,00:02:10.750,00:00:00.263,FP
+Participant,00:02:10.487,00:02:13.930,00:00:03.443,eh what technical test you are talking about
+Overlap,00:02:11.520,00:02:13.930,00:00:02.410,overlap
+Furhat,00:02:11.520,00:02:16.310,00:00:04.790,no voice recognized 3rd
+Silence,00:02:16.310,00:02:18.003,00:00:01.693,silence
+DF,00:02:18.003,00:02:18.477,00:00:00.474,FP
+Participant,00:02:18.003,00:02:20.676,00:00:02.673,eh what are my options
+Silence,00:02:20.676,00:02:21.579,00:00:00.903,silence
+Furhat,00:02:21.579,00:02:27.901,00:00:06.322,give options
+Silence,00:02:27.901,00:02:31.916,00:00:04.015,silence
+DF,00:02:31.916,00:02:43.379,00:00:11.463,CD
+Participant,00:02:31.916,00:02:43.379,00:00:11.463,how does a technical question how does th- this te- eh technical int- the technical interview how does it look like
+Overlap,00:02:35.860,00:02:39.222,00:00:03.362,overlap
+Furhat,00:02:35.860,00:02:39.222,00:00:03.362,no match 2nd
+Silence,00:02:43.379,00:02:44.551,00:00:01.172,silence
+Furhat,00:02:44.551,00:02:49.038,00:00:04.487,no voice recognized 3rd
+Silence,00:02:49.038,00:02:51.239,00:00:02.201,silence
+Participant,00:02:51.239,00:02:53.286,00:00:02.047,what are my options
+Silence,00:02:53.286,00:02:54.556,00:00:01.270,silence
+Furhat,00:02:54.556,00:02:55.141,00:00:00.585,CR
+Silence,00:02:55.141,00:02:56.516,00:00:01.375,silence
+Participant,00:02:56.516,00:02:58.755,00:00:02.239,what are my options
+Silence,00:02:58.755,00:02:59.849,00:00:01.094,silence
+Furhat,00:02:59.849,00:03:06.839,00:00:06.990,give options
+Silence,00:03:06.839,00:03:07.027,00:00:00.188,silence
+Participant,00:03:07.027,00:03:10.110,00:00:03.083,yes technical test what is that
+Silence,00:03:10.110,00:03:12.688,00:00:02.578,silence
+Participant,00:03:12.688,00:03:14.218,00:00:01.530,the technical test
+Silence,00:03:14.218,00:03:15.370,00:00:01.152,silence
+Furhat,00:03:15.370,00:03:16.485,00:00:01.115,CR
+Silence,00:03:16.485,00:03:17.896,00:00:01.411,silence
+Participant,00:03:17.896,00:03:21.660,00:00:03.764,technical test i don't understand wha-
+Overlap,00:03:21.470,00:03:21.660,00:00:00.190,overlap
+Furhat,00:03:21.470,00:03:26.110,00:00:04.640,ask open question
+Overlap,00:03:22.687,00:03:23.070,00:00:00.383,overlap
+Participant,00:03:22.687,00:03:23.070,00:00:00.383,yeah
+Silence,00:03:26.110,00:03:27.529,00:00:01.419,silence
+Participant,00:03:27.529,00:03:30.750,00:00:03.221,oh ehm i did a-
+DF,00:03:28.178,00:03:29.042,00:00:00.864,FP
+DF,00:03:29.042,00:03:30.050,00:00:01.008,UP
+Furhat,00:03:30.530,00:03:52.441,00:00:21.911,give advice
+Overlap,00:03:30.530,00:03:30.750,00:00:00.220,overlap
+Participant,00:03:37.248,00:03:37.986,00:00:00.738,ah okay
+Overlap,00:03:37.248,00:03:37.986,00:00:00.738,overlap
+Silence,00:03:52.441,00:03:53.208,00:00:00.767,silence
+Participant,00:03:53.208,00:03:56.345,00:00:03.137,thank you you helped me very much
+Furhat,00:03:55.759,00:03:58.297,00:00:02.538,no match 1st
+Overlap,00:03:55.759,00:03:56.345,00:00:00.586,overlap
+Silence,00:03:58.297,00:04:00.592,00:00:02.295,silence
+Participant,00:04:00.592,00:04:03.820,00:00:03.228,ah okay okay thank you very much
+Overlap,00:04:03.606,00:04:03.820,00:00:00.214,overlap
+Furhat,00:04:03.606,00:04:10.851,00:00:07.245,give options
+Silence,00:04:10.851,00:04:13.167,00:00:02.316,silence
+Participant,00:04:13.167,00:04:14.832,00:00:01.665,no thank you
+Silence,00:04:14.832,00:04:16.255,00:00:01.423,silence
+Furhat,00:04:16.255,00:04:20.193,00:00:03.938,ask if topic change
+Silence,00:04:20.193,00:04:22.179,00:00:01.986,silence
+Participant,00:04:22.179,00:04:24.866,00:00:02.687,thank you very much
+Silence,00:04:24.866,00:04:26.047,00:00:01.181,silence
+Furhat,00:04:26.047,00:04:28.879,00:00:02.832,goodbye
+Silence,00:04:28.879,00:04:29.427,00:00:00.548,silence
+Participant,00:04:29.427,00:04:30.690,00:00:01.263,have a nice day

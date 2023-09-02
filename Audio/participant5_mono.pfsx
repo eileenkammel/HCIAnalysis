@@ -9,6 +9,13 @@
             <Int>3025</Int>
         </pref>
     </prefGroup>
+    <prefList key="SegmentationViewer.TierOrder">
+        <String>Participant</String>
+        <String>DF</String>
+        <String>Furhat</String>
+        <String>Silence</String>
+        <String>Overlap</String>
+    </prefList>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>7</Int>
     </pref>
@@ -30,7 +37,7 @@
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>14530</Long>
+        <Long>0</Long>
     </pref>
     <pref key="ExportTabDialog.SelectTiersMode">
         <String>Tier</String>
@@ -42,6 +49,8 @@
         <String>Participant</String>
         <String>DF</String>
         <String>Furhat</String>
+        <String>Silence</String>
+        <String>Overlap</String>
     </prefList>
     <pref key="LayoutManager.CurrentMode">
         <Int>3</Int>
@@ -93,6 +102,8 @@
         <String>Participant</String>
         <String>DF</String>
         <String>Furhat</String>
+        <String>Silence</String>
+        <String>Overlap</String>
     </prefList>
     <pref key="SegmentationViewer.ActiveTier">
         <String>DF</String>
@@ -129,7 +140,7 @@
         <String>DF</String>
     </prefList>
     <pref key="SelectionBeginTime">
-        <Long>12710</Long>
+        <Long>0</Long>
     </pref>
     <pref key="TM.SignalViewer.ZoomLevel">
         <Float>5.0</Float>
@@ -167,10 +178,10 @@
         </prefList>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>6310</Long>
+        <Long>0</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>12710</Long>
+        <Long>46770</Long>
     </pref>
     <prefGroup key="TierColors">
         <pref key="Furhat">
@@ -178,6 +189,9 @@
         </pref>
         <pref key="DF">
             <Object class="java.awt.Color">0,90,160</Object>
+        </pref>
+        <pref key="Silence">
+            <Object class="java.awt.Color">160,0,160</Object>
         </pref>
         <pref key="Participant">
             <Object class="java.awt.Color">160,90,0</Object>
@@ -187,6 +201,8 @@
         <String>Participant</String>
         <String>DF</String>
         <String>Furhat</String>
+        <String>Silence</String>
+        <String>Overlap</String>
     </prefList>
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>DF</String>
@@ -202,5 +218,6 @@
         <Int>0</Int>
     </pref>
     <prefList key="ExportTabDialog.HiddenTiers"/>
+    <prefList key="SegmentationViewer.HiddenTiers"/>
     <prefList key="TranscriptionTable.HiddenTiers"/>
 </preferences>
