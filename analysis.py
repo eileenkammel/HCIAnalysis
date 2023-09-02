@@ -27,6 +27,16 @@ def get_disfluency_distribution(transcript_df):
     return disfluencies_histo
 
 
+def split_df_histo(disfluencies_histo):
+    fp = disfluencies_histo["FP"] if "FP" in disfluencies_histo else 0
+    sub = disfluencies_histo["SUB"] if "SUB" in disfluencies_histo else 0
+    up = disfluencies_histo["UP"] if "UP" in disfluencies_histo else 0
+    rep = disfluencies_histo["REP"] if "REP" in disfluencies_histo else 0
+    art = disfluencies_histo["ART"] if "ART" in disfluencies_histo else 0
+    cd = disfluencies_histo["CD"] if "CD" in disfluencies_histo else 0
+    return fp, up, rep, sub, art, cd
+
+
 def count_words(transcript_df):
     participant_words = transcript_df.loc[transcript_df["speaker"] ==
                                           "Participant", "text"].str.split().apply(lambda x: len(x)).sum()
@@ -109,6 +119,43 @@ def general_stats(path_to_trancripts):
     gen_stats.to_csv("general_stats.csv", index=False)
 
 
+def analyze_disfluencies(transcript_df, participant_no):
+    participant_no = participant_no
+    words = count_words(transcript_df)
+    utterances = count_participant_utterances(transcript_df)
+    total_df = count_disfluencies(transcript_df)
+    mean_per_word = get_mean_dfs_per_utterance(total_df, words)
+    mean_per_utterance = get_mean_dfs_per_word(total_df, utterances)
+    utt_histo = get_disfluency_distribution(transcript_df)
+    fp, up, rep, sub, art, cd = split_df_histo(utt_histo)
+    return {
+        "participant_no": participant_no,
+        "total_df": total_df,
+        "mean_per_word": mean_per_word,
+        "mean_per_utterance": mean_per_utterance,
+        "fp": fp,
+        "up": up,
+        "rep": rep,
+        "sub": sub,
+        "art": art,
+        "cd": cd
+    }
+
+
+def disfluency_stats(path_to_trancripts):
+    df_stats = pd.DataFrame(columns=["participant_no", "total_df", "mean_per_word",
+                             "mean_per_utterance", "fp", "up", "rep", "sub", "art", "cd"])
+    for participant in range(2, 8):
+        path = os.path.join(path_to_trancripts, "p" +
+                            str(participant)+"_transcript.csv")
+        transcript_df = pd.read_csv(path, sep=",", header=0)
+        row = analyze_disfluencies(transcript_df, participant)
+        df_stats = pd.concat([df_stats, pd.DataFrame([row])])
+    df_stats.sort_values(by="participant_no", inplace=True)
+    df_stats.reset_index(drop=True, inplace=True)
+    df_stats.to_csv("disfluency_stats.csv", index=False)
+
+
 def analize_all(path_to_trancripts):
     results_df = pd.DataFrame(columns=["participant_no", "words", "utterances", "disfluencies",
                               "disfluencies_histo", "mean_words_per_utterance", "mean_dfs_per_utterance", "mean_dfs_per_word"])
@@ -136,10 +183,5 @@ def analize_all(path_to_trancripts):
 
 
 # analize_all("/Users/eileen/HCIAnalysis/Transcripts")
-general_stats("/Users/eileen/HCIAnalysis/Transcripts")
-
-df = pd.read_csv("Transcripts/p2_transcript.csv", sep=",", header=0)
-df["start"] = pd.to_timedelta(df["start"])
-df["end"] = pd.to_timedelta(df["end"])
-df["duration"] = pd.to_timedelta(df["duration"])
-print(total_talk_duration(df, 2))
+# general_stats("/Users/eileen/HCIAnalysis/Transcripts")
+disfluency_stats("/Users/eileen/HCIAnalysis/Transcripts")
