@@ -45,6 +45,14 @@ def get_mean_dfs_per_word(df_count, word_count):
     return round((df_count / word_count), 3)
 
 
+def total_talk_duration(transcript_df):
+    participant_talk = transcript_df.loc[transcript_df["speaker"]
+                                         == "Participant", "duration"].sum()
+    furhat_talk = transcript_df.loc[transcript_df["speaker"]
+                                    == "Furhat", "duration"].sum()
+    return participant_talk, furhat_talk
+
+
 def analyze_transcript(transcript_df, participant_no):
     participant_no = participant_no
     words = count_words(transcript_df)
@@ -77,6 +85,9 @@ def analize_all(path_to_trancripts):
         path = os.path.join(path_to_trancripts, "p" +
                             str(participant)+"_transcript.csv")
         transcript_df = pd.read_csv(path, sep=",", header=0)
+        transcript_df["start"] = pd.to_timedelta(df["start"])
+        transcript_df["end"] = pd.to_timedelta(df["end"])
+        transcript_df["duration"] = pd.to_timedelta(df["duration"])
         row = analyze_transcript(transcript_df, participant)
         results_df = results_df.append(row, ignore_index=True)
     results_df.sort_values(by="participant_no", inplace=True)

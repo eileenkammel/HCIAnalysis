@@ -21,9 +21,5 @@ for file in os.listdir(path_base):
         df.sort_values(by="start", inplace=True)
         # reset index
         df.reset_index(drop=True, inplace=True)
-        # convert time stamps to pd timedelta objects
-        df["start"] = pd.to_timedelta(df["start"])
-        df["end"] = pd.to_timedelta(df["end"])
-        df["duration"] = pd.to_timedelta(df["duration"])
         # save sorted df to file (overwrite unsorted file)
         df.to_csv(path, index=False)
