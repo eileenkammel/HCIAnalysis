@@ -45,4 +45,4 @@ class TestAnalysis:
         test_df["start"] = pd.to_timedelta(test_df["start"])
         test_df["end"] = pd.to_timedelta(test_df["end"])
         test_df["duration"] = pd.to_timedelta(test_df["duration"])
-        assert total_talk_duration(test_df, 2) == [2, pd.Timedelta('0 days 00:01:22.101000'), pd.Timedelta('0 days 00:03:51.247000')]
+        assert total_talk_duration(test_df, 2) == {'participant_no': 2, 'participant_talk': pd.Timedelta('0 days 00:01:22.101000'), 'furhat_talk': pd.Timedelta('0 days 00:03:51.247000')}
