@@ -84,7 +84,7 @@ def analyze_transcript(transcript_df, participant_no):
 def analize_all(path_to_trancripts):
     results_df = pd.DataFrame(columns=["participant_no", "words", "utterances", "disfluencies",
                               "disfluencies_histo", "mean_words_per_utterance", "mean_dfs_per_utterance", "mean_dfs_per_word"])
-    total_talk_duration = pd.DataFrame(
+    total_talk = pd.DataFrame(
         columns=["participant_no", "participant_talk", "furhat_talk"])
     for participant in range(2, 8):
 
@@ -95,16 +95,16 @@ def analize_all(path_to_trancripts):
         transcript_df["end"] = pd.to_timedelta(transcript_df["end"])
         transcript_df["duration"] = pd.to_timedelta(transcript_df["duration"])
         row = analyze_transcript(transcript_df, participant)
-        results_df = results_df.append(row, ignore_index=True)
+        results_df = pd.concat([results_df, pd.DataFrame([row])])
         row = total_talk_duration(transcript_df, participant)
-        total_talk_duration = total_talk_duration.append(
-            row, ignore_index=True)
+        total_talk = pd.concat(
+            [total_talk, pd.DataFrame([row])])
     results_df.sort_values(by="participant_no", inplace=True)
     results_df.reset_index(drop=True, inplace=True)
     results_df.to_csv("results.csv", index=False)
-    total_talk_duration.sort_values(by="participant_no", inplace=True)
-    total_talk_duration.reset_index(drop=True, inplace=True)
-    total_talk_duration.to_csv("total_talk_duration.csv", index=False)
+    total_talk.sort_values(by="participant_no", inplace=True)
+    total_talk.reset_index(drop=True, inplace=True)
+    total_talk.to_csv("total_talk_duration.csv", index=False)
 
 
 analize_all("/Users/eileen/HCIAnalysis/Transcripts")
