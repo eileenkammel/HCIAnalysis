@@ -1,85 +1,85 @@
 speaker,start,end,duration,text
-Furhat,00:00:00.431,00:00:02.401,00:00:01.970,greeting
-DF,00:00:03.312,00:00:04.022,00:00:00.710,REP
-Participant,00:00:03.337,00:00:05.331,00:00:01.994,wi- with what can you help me with
-Furhat,00:00:06.394,00:00:09.490,00:00:03.096,no match 1st
-DF,00:00:10.310,00:00:11.150,00:00:00.840,REP
-Participant,00:00:10.316,00:00:15.409,00:00:05.093,what are what are my options what eh what what do you what can you help me with
-DF,00:00:12.325,00:00:12.710,00:00:00.385,FP
-DF,00:00:12.710,00:00:14.530,00:00:01.820,SUB
-Furhat,00:00:17.138,00:00:22.552,00:00:05.414,give options
-Participant,00:00:23.041,00:00:25.313,00:00:02.272,yeah for sure let's start with resumes
-Furhat,00:00:26.655,00:00:32.440,00:00:05.785,ask education
-Participant,00:00:33.080,00:00:41.577,00:00:08.497,eh currently my highest level of education is eh a bachelors degree that i finished but i am doing right now my masters
-DF,00:00:33.080,00:00:33.240,00:00:00.160,FP
-DF,00:00:36.630,00:00:36.930,00:00:00.300,FP
-Furhat,00:00:42.890,00:00:44.507,00:00:01.617,ask positions
-DF,00:00:45.371,00:00:46.050,00:00:00.679,FP
-Participant,00:00:45.402,00:00:52.468,00:00:07.066,ehm i've worked in two jobs so far ehm both as a working student in software engineering 
-DF,00:00:48.481,00:00:48.910,00:00:00.429,FP
-Furhat,00:00:53.992,00:00:56.780,00:00:02.788,no match 1st
-DF,00:00:57.640,00:00:57.830,00:00:00.190,FP
-Participant,00:00:57.641,00:01:04.921,00:00:07.280, eh i wor- i've worked in two jobs so far eh both were as a working student in software engineering
-DF,00:00:57.840,00:00:58.780,00:00:00.940,SUB
-DF,00:01:01.181,00:01:01.550,00:00:00.369,FP
-Furhat,00:01:06.469,00:01:08.875,00:00:02.406,ask experience
-DF,00:01:09.840,00:01:10.565,00:00:00.725,FP
-Participant,00:01:09.840,00:01:20.211,00:00:10.371,ehm w- workwise eh i got my first job in 2018 so this is five years now al- almost yeah 
-DF,00:01:10.630,00:01:11.812,00:00:01.182,REP
-DF,00:01:18.572,00:01:19.620,00:00:01.048,REP
-Furhat,00:01:21.916,00:01:29.012,00:00:07.096,ask open question
-Participant,00:01:29.285,00:01:34.453,00:00:05.168,no i've i i have a bechelors degree you misunderstood me eh sorry 
-DF,00:01:29.755,00:01:31.163,00:00:01.408,SUB
-Furhat,00:01:35.922,00:01:39.712,00:00:03.790,ask advice need
-Participant,00:01:41.244,00:01:45.137,00:00:03.893,ehm i don't know i mean what advice can you offer
-DF,00:01:41.257,00:01:42.150,00:00:00.893,FP
-Furhat,00:01:46.812,00:01:49.533,00:00:02.721,no match 1st
-Participant,00:01:50.717,00:01:58.030,00:00:07.313,ehm what what what tips do you have for writing a cv what are my options
-DF,00:01:50.854,00:01:51.497,00:00:00.643,FP
-DF,00:01:51.901,00:01:53.183,00:00:01.282,REP
-DF,00:01:55.999,00:01:56.990,00:00:00.991,UP
-Furhat,00:01:57.955,00:02:00.801,00:00:02.846,no match 2nd
-DF,00:02:01.164,00:02:02.000,00:00:00.836,REP
-Participant,00:02:01.164,00:02:02.931,00:00:01.767,what are what are my options
-Furhat,00:02:04.252,00:02:14.122,00:00:09.870,give options
-Participant,00:02:14.418,00:02:17.815,00:00:03.397,ehm can you give me some advice about cv structure
-DF,00:02:14.418,00:02:15.130,00:00:00.712,FP
-Furhat,00:02:19.084,00:02:28.880,00:00:09.796,give options
-Participant,00:02:29.133,00:02:30.797,00:00:01.664,cv structure
-Furhat,00:02:32.539,00:03:05.552,00:00:33.013,give advice
-Participant,00:03:05.879,00:03:06.551,00:00:00.672,no
-Furhat,00:03:08.101,00:03:09.763,00:00:01.662,ask if topic change
-Participant,00:03:10.054,00:03:12.525,00:00:02.471,yeah let's talk about job interviews now
-Furhat,00:03:13.296,00:03:24.388,00:00:11.092,ask for advice need
-Participant,00:03:24.544,00:03:26.760,00:00:02.216,yeah then let's talk about preparation
-Furhat,00:03:29.755,00:03:30.790,00:00:01.035,no voice recognized 1st
-Participant,00:03:31.676,00:03:33.004,00:00:01.328,preparation
-Furhat,00:03:35.402,00:03:37.528,00:00:02.126,ask open question
-Participant,00:03:39.541,00:03:52.400,00:00:12.859,i don't know i research the job and then i have a look at the at the company to have some information about that beforehand and yeah otherwise i don't know i just present myself
-DF,00:03:43.450,00:03:44.510,00:00:01.060,REP
-Furhat,00:03:53.958,00:04:11.193,00:00:17.235,give advice
-Participant,00:04:11.491,00:04:14.204,00:00:02.713,yeah then let's talk about technical skills
-Furhat,00:04:13.659,00:04:20.849,00:00:07.190,give options
-Participant,00:04:21.031,00:04:22.360,00:00:01.329,technical test
-Furhat,00:04:26.301,00:04:27.133,00:00:00.832,no voice recognizes 1st
-Participant,00:04:28.327,00:04:29.851,00:00:01.524,technical test
-Furhat,00:04:31.211,00:04:33.604,00:00:02.393,ask open question
-Participant,00:04:34.720,00:04:53.120,00:00:18.400,ehm i think i should eh think about what eh specific role i have there and then think about maybe easy tasks that i could eh do for that so for example i don't know for one eh job interview i for example had to explain what an rest api is
-DF,00:04:34.720,00:04:35.350,00:00:00.630,FP
-DF,00:04:36.960,00:04:37.280,00:00:00.320,FP
-DF,00:04:38.500,00:04:38.880,00:00:00.380,FP
-DF,00:04:44.390,00:04:44.800,00:00:00.410,FP
-DF,00:04:48.310,00:04:48.710,00:00:00.400,FP
-Furhat,00:04:51.885,00:05:13.380,00:00:21.495,give advice
-Participant,00:05:14.011,00:05:16.189,00:00:02.178,what are my options again
-Furhat,00:05:17.287,00:05:23.484,00:00:06.197,give options
-Participant,00:05:23.540,00:05:26.764,00:00:03.224,yeah then let's talk about the interview questions
-Furhat,00:05:28.752,00:05:29.888,00:00:01.136,no voice recognized 1st
-Participant,00:05:30.399,00:05:32.221,00:00:01.822,interview questions
-Furhat,00:05:33.464,00:05:35.774,00:00:02.310,ask open question
-Participant,00:05:37.193,00:05:39.994,00:00:02.801,i don't know usually i'm not the one who asks
-Furhat,00:05:41.217,00:05:59.825,00:00:18.608,give advice
-Participant,00:06:00.168,00:06:00.930,00:00:00.762,no
-Furhat,00:06:02.435,00:06:06.732,00:00:04.297,ask if topic change
-Participant,00:06:07.164,00:06:08.319,00:00:01.155,no thank you
-Furhat,00:06:09.679,00:06:12.526,00:00:02.847,goodbye
+Furhat,0 days 00:00:00.431000,0 days 00:00:02.401000,0 days 00:00:01.970000,greeting
+DF,0 days 00:00:03.312000,0 days 00:00:04.022000,0 days 00:00:00.710000,REP
+Participant,0 days 00:00:03.337000,0 days 00:00:05.331000,0 days 00:00:01.994000,wi- with what can you help me with
+Furhat,0 days 00:00:06.394000,0 days 00:00:09.490000,0 days 00:00:03.096000,no match 1st
+DF,0 days 00:00:10.310000,0 days 00:00:11.150000,0 days 00:00:00.840000,REP
+Participant,0 days 00:00:10.316000,0 days 00:00:15.409000,0 days 00:00:05.093000,what are what are my options what eh what what do you what can you help me with
+DF,0 days 00:00:12.325000,0 days 00:00:12.710000,0 days 00:00:00.385000,FP
+DF,0 days 00:00:12.710000,0 days 00:00:14.530000,0 days 00:00:01.820000,SUB
+Furhat,0 days 00:00:17.138000,0 days 00:00:22.552000,0 days 00:00:05.414000,give options
+Participant,0 days 00:00:23.041000,0 days 00:00:25.313000,0 days 00:00:02.272000,yeah for sure let's start with resumes
+Furhat,0 days 00:00:26.655000,0 days 00:00:32.440000,0 days 00:00:05.785000,ask education
+Participant,0 days 00:00:33.080000,0 days 00:00:41.577000,0 days 00:00:08.497000,eh currently my highest level of education is eh a bachelors degree that i finished but i am doing right now my masters
+DF,0 days 00:00:33.080000,0 days 00:00:33.240000,0 days 00:00:00.160000,FP
+DF,0 days 00:00:36.630000,0 days 00:00:36.930000,0 days 00:00:00.300000,FP
+Furhat,0 days 00:00:42.890000,0 days 00:00:44.507000,0 days 00:00:01.617000,ask positions
+DF,0 days 00:00:45.371000,0 days 00:00:46.050000,0 days 00:00:00.679000,FP
+Participant,0 days 00:00:45.402000,0 days 00:00:52.468000,0 days 00:00:07.066000,ehm i've worked in two jobs so far ehm both as a working student in software engineering 
+DF,0 days 00:00:48.481000,0 days 00:00:48.910000,0 days 00:00:00.429000,FP
+Furhat,0 days 00:00:53.992000,0 days 00:00:56.780000,0 days 00:00:02.788000,no match 1st
+DF,0 days 00:00:57.640000,0 days 00:00:57.830000,0 days 00:00:00.190000,FP
+Participant,0 days 00:00:57.641000,0 days 00:01:04.921000,0 days 00:00:07.280000, eh i wor- i've worked in two jobs so far eh both were as a working student in software engineering
+DF,0 days 00:00:57.840000,0 days 00:00:58.780000,0 days 00:00:00.940000,SUB
+DF,0 days 00:01:01.181000,0 days 00:01:01.550000,0 days 00:00:00.369000,FP
+Furhat,0 days 00:01:06.469000,0 days 00:01:08.875000,0 days 00:00:02.406000,ask experience
+DF,0 days 00:01:09.840000,0 days 00:01:10.565000,0 days 00:00:00.725000,FP
+Participant,0 days 00:01:09.840000,0 days 00:01:20.211000,0 days 00:00:10.371000,ehm w- workwise eh i got my first job in 2018 so this is five years now al- almost yeah 
+DF,0 days 00:01:10.630000,0 days 00:01:11.812000,0 days 00:00:01.182000,REP
+DF,0 days 00:01:18.572000,0 days 00:01:19.620000,0 days 00:00:01.048000,REP
+Furhat,0 days 00:01:21.916000,0 days 00:01:29.012000,0 days 00:00:07.096000,ask open question
+Participant,0 days 00:01:29.285000,0 days 00:01:34.453000,0 days 00:00:05.168000,no i've i i have a bechelors degree you misunderstood me eh sorry 
+DF,0 days 00:01:29.755000,0 days 00:01:31.163000,0 days 00:00:01.408000,SUB
+Furhat,0 days 00:01:35.922000,0 days 00:01:39.712000,0 days 00:00:03.790000,ask advice need
+Participant,0 days 00:01:41.244000,0 days 00:01:45.137000,0 days 00:00:03.893000,ehm i don't know i mean what advice can you offer
+DF,0 days 00:01:41.257000,0 days 00:01:42.150000,0 days 00:00:00.893000,FP
+Furhat,0 days 00:01:46.812000,0 days 00:01:49.533000,0 days 00:00:02.721000,no match 1st
+Participant,0 days 00:01:50.717000,0 days 00:01:58.030000,0 days 00:00:07.313000,ehm what what what tips do you have for writing a cv what are my options
+DF,0 days 00:01:50.854000,0 days 00:01:51.497000,0 days 00:00:00.643000,FP
+DF,0 days 00:01:51.901000,0 days 00:01:53.183000,0 days 00:00:01.282000,REP
+DF,0 days 00:01:55.999000,0 days 00:01:56.990000,0 days 00:00:00.991000,UP
+Furhat,0 days 00:01:57.955000,0 days 00:02:00.801000,0 days 00:00:02.846000,no match 2nd
+DF,0 days 00:02:01.164000,0 days 00:02:02,0 days 00:00:00.836000,REP
+Participant,0 days 00:02:01.164000,0 days 00:02:02.931000,0 days 00:00:01.767000,what are what are my options
+Furhat,0 days 00:02:04.252000,0 days 00:02:14.122000,0 days 00:00:09.870000,give options
+Participant,0 days 00:02:14.418000,0 days 00:02:17.815000,0 days 00:00:03.397000,ehm can you give me some advice about cv structure
+DF,0 days 00:02:14.418000,0 days 00:02:15.130000,0 days 00:00:00.712000,FP
+Furhat,0 days 00:02:19.084000,0 days 00:02:28.880000,0 days 00:00:09.796000,give options
+Participant,0 days 00:02:29.133000,0 days 00:02:30.797000,0 days 00:00:01.664000,cv structure
+Furhat,0 days 00:02:32.539000,0 days 00:03:05.552000,0 days 00:00:33.013000,give advice
+Participant,0 days 00:03:05.879000,0 days 00:03:06.551000,0 days 00:00:00.672000,no
+Furhat,0 days 00:03:08.101000,0 days 00:03:09.763000,0 days 00:00:01.662000,ask if topic change
+Participant,0 days 00:03:10.054000,0 days 00:03:12.525000,0 days 00:00:02.471000,yeah let's talk about job interviews now
+Furhat,0 days 00:03:13.296000,0 days 00:03:24.388000,0 days 00:00:11.092000,ask for advice need
+Participant,0 days 00:03:24.544000,0 days 00:03:26.760000,0 days 00:00:02.216000,yeah then let's talk about preparation
+Furhat,0 days 00:03:29.755000,0 days 00:03:30.790000,0 days 00:00:01.035000,no voice recognized 1st
+Participant,0 days 00:03:31.676000,0 days 00:03:33.004000,0 days 00:00:01.328000,preparation
+Furhat,0 days 00:03:35.402000,0 days 00:03:37.528000,0 days 00:00:02.126000,ask open question
+Participant,0 days 00:03:39.541000,0 days 00:03:52.400000,0 days 00:00:12.859000,i don't know i research the job and then i have a look at the at the company to have some information about that beforehand and yeah otherwise i don't know i just present myself
+DF,0 days 00:03:43.450000,0 days 00:03:44.510000,0 days 00:00:01.060000,REP
+Furhat,0 days 00:03:53.958000,0 days 00:04:11.193000,0 days 00:00:17.235000,give advice
+Participant,0 days 00:04:11.491000,0 days 00:04:14.204000,0 days 00:00:02.713000,yeah then let's talk about technical skills
+Furhat,0 days 00:04:13.659000,0 days 00:04:20.849000,0 days 00:00:07.190000,give options
+Participant,0 days 00:04:21.031000,0 days 00:04:22.360000,0 days 00:00:01.329000,technical test
+Furhat,0 days 00:04:26.301000,0 days 00:04:27.133000,0 days 00:00:00.832000,no voice recognizes 1st
+Participant,0 days 00:04:28.327000,0 days 00:04:29.851000,0 days 00:00:01.524000,technical test
+Furhat,0 days 00:04:31.211000,0 days 00:04:33.604000,0 days 00:00:02.393000,ask open question
+Participant,0 days 00:04:34.720000,0 days 00:04:53.120000,0 days 00:00:18.400000,ehm i think i should eh think about what eh specific role i have there and then think about maybe easy tasks that i could eh do for that so for example i don't know for one eh job interview i for example had to explain what an rest api is
+DF,0 days 00:04:34.720000,0 days 00:04:35.350000,0 days 00:00:00.630000,FP
+DF,0 days 00:04:36.960000,0 days 00:04:37.280000,0 days 00:00:00.320000,FP
+DF,0 days 00:04:38.500000,0 days 00:04:38.880000,0 days 00:00:00.380000,FP
+DF,0 days 00:04:44.390000,0 days 00:04:44.800000,0 days 00:00:00.410000,FP
+DF,0 days 00:04:48.310000,0 days 00:04:48.710000,0 days 00:00:00.400000,FP
+Furhat,0 days 00:04:51.885000,0 days 00:05:13.380000,0 days 00:00:21.495000,give advice
+Participant,0 days 00:05:14.011000,0 days 00:05:16.189000,0 days 00:00:02.178000,what are my options again
+Furhat,0 days 00:05:17.287000,0 days 00:05:23.484000,0 days 00:00:06.197000,give options
+Participant,0 days 00:05:23.540000,0 days 00:05:26.764000,0 days 00:00:03.224000,yeah then let's talk about the interview questions
+Furhat,0 days 00:05:28.752000,0 days 00:05:29.888000,0 days 00:00:01.136000,no voice recognized 1st
+Participant,0 days 00:05:30.399000,0 days 00:05:32.221000,0 days 00:00:01.822000,interview questions
+Furhat,0 days 00:05:33.464000,0 days 00:05:35.774000,0 days 00:00:02.310000,ask open question
+Participant,0 days 00:05:37.193000,0 days 00:05:39.994000,0 days 00:00:02.801000,i don't know usually i'm not the one who asks
+Furhat,0 days 00:05:41.217000,0 days 00:05:59.825000,0 days 00:00:18.608000,give advice
+Participant,0 days 00:06:00.168000,0 days 00:06:00.930000,0 days 00:00:00.762000,no
+Furhat,0 days 00:06:02.435000,0 days 00:06:06.732000,0 days 00:00:04.297000,ask if topic change
+Participant,0 days 00:06:07.164000,0 days 00:06:08.319000,0 days 00:00:01.155000,no thank you
+Furhat,0 days 00:06:09.679000,0 days 00:06:12.526000,0 days 00:00:02.847000,goodbye

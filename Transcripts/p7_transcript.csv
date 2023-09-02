@@ -1,80 +1,80 @@
 speaker,start,end,duration,text
-Furhat,00:00:00.358,00:00:02.429,00:00:02.071,greeting
-Participant,00:00:03.159,00:00:05.905,00:00:02.746,hi eh what can you help me with what are my options
-DF,00:00:03.754,00:00:03.950,00:00:00.196,FP
-Furhat,00:00:07.682,00:00:10.190,00:00:02.508,no match 1st
-Participant,00:00:10.453,00:00:11.732,00:00:01.279,what are my options
-Furhat,00:00:13.127,00:00:18.436,00:00:05.309,give options
-Participant,00:00:18.541,00:00:20.390,00:00:01.849,yes can we talk about resumes
-Furhat,00:00:21.749,00:00:22.464,00:00:00.715,CR
-Participant,00:00:22.721,00:00:24.456,00:00:01.735,can we talk about resumes
-Furhat,00:00:25.958,00:00:33.356,00:00:07.398,ask education
-Participant,00:00:33.689,00:00:36.054,00:00:02.365,i'm currently doing by bachelors degree
-Furhat,00:00:37.362,00:00:38.812,00:00:01.450,ask positions
-Participant,00:00:39.691,00:00:41.446,00:00:01.755,what kind of positions do you mean
-Furhat,00:00:42.906,00:00:45.686,00:00:02.780,no match 1st
-Participant,00:00:46.090,00:00:47.684,00:00:01.594,can you repeat the question
-Furhat,00:00:48.933,00:00:52.537,00:00:03.604,no match 2nd
-Participant,00:00:53.063,00:00:54.989,00:00:01.926,yes what do you mean by position
-Furhat,00:00:56.633,00:01:00.828,00:00:04.195,no match 3rd
-Participant,00:01:01.766,00:01:05.973,00:00:04.207,oh ehm i currently work next to my studies if that's what you mean
-DF,00:01:02.193,00:01:02.457,00:00:00.264,FP
-Furhat,00:01:07.995,00:01:11.869,00:00:03.874,no match 3rd
-Participant,00:01:12.047,00:01:12.780,00:00:00.733,one
-Furhat,00:01:17.343,00:01:18.372,00:00:01.029,no voice recognized 1st
-Participant,00:01:19.071,00:01:20.390,00:00:01.319,one position
-Furhat,00:01:21.922,00:01:22.650,00:00:00.728,CR
-Participant,00:01:22.913,00:01:23.430,00:00:00.517,one
-Furhat,00:01:24.988,00:01:28.806,00:00:03.818,ask experience
-Participant,00:01:29.753,00:01:31.211,00:00:01.458,three years now
-Furhat,00:01:33.732,00:01:40.677,00:00:06.945,ask open question
-Participant,00:01:42.161,00:01:53.534,00:00:11.373,i don't know what the companies want to see on the cv i don't know which one i should which which of  my abilities and which of my education and what is the most important thing that i should display in it
-DF,00:01:45.680,00:01:48.950,00:00:03.270,SUB
-Furhat,00:01:55.137,00:01:59.319,00:00:04.182,ask advice need
-DF,00:02:00.290,00:02:00.868,00:00:00.578,FP
-Participant,00:02:00.290,00:02:09.540,00:00:09.250,ehm what is the best option to find a tech job what kind of skills should i put in my cv
-Furhat,00:02:11.587,00:02:21.169,00:00:09.582,give options
-Participant,00:02:21.741,00:02:24.393,00:00:02.652,i would like to know how to write my first cv
-Furhat,00:02:25.846,00:02:28.550,00:00:02.704,no match 1st
-Participant,00:02:28.736,00:02:31.625,00:00:02.889,i would like to know how to write my first cv
-Furhat,00:02:32.915,00:02:57.842,00:00:24.927,give advice
-Participant,00:02:58.025,00:02:58.796,00:00:00.771,yes please
-Furhat,00:03:00.190,00:03:03.017,00:00:02.827,ask advice need
-DF,00:03:04.210,00:03:04.520,00:00:00.310,FP
-Participant,00:03:04.219,00:03:05.826,00:00:01.607,eh the stucture again
-Furhat,00:03:07.126,00:03:09.895,00:00:02.769,no match 1st
-Participant,00:03:10.081,00:03:11.409,00:00:01.328,what are my options
-Furhat,00:03:12.708,00:03:22.394,00:00:09.686,give options
-Participant,00:03:22.586,00:03:24.929,00:00:02.343,i want to know more about the content
-Furhat,00:03:24.975,00:03:28.057,00:00:03.082,no match 2nd
-Participant,00:03:28.080,00:03:30.266,00:00:02.186,i want to know more about the content
-Furhat,00:03:31.829,00:03:55.042,00:00:23.213,give advice
-Participant,00:03:55.262,00:03:56.262,00:00:01.000,no thnak you
-Furhat,00:03:57.392,00:03:59.440,00:00:02.048,ask if topic change
-Participant,00:03:59.762,00:04:00.390,00:00:00.628,yes
-Furhat,00:04:02.852,00:04:04.425,00:00:01.573,ask for topic
-Participant,00:04:04.631,00:04:06.038,00:00:01.407,what are my options
-Furhat,00:04:07.715,00:04:09.171,00:00:01.456,CR
-Participant,00:04:09.041,00:04:10.425,00:00:01.384,what are my options
-Furhat,00:04:12.108,00:04:18.070,00:00:05.962,give options
-Participant,00:04:18.154,00:04:19.830,00:00:01.676,yes the interviews
-Furhat,00:04:21.153,00:04:31.460,00:00:10.307,ask advice need
-Participant,00:04:31.953,00:04:34.110,00:00:02.157,i would like to know more about the preparation
-Furhat,00:04:35.514,00:04:37.448,00:00:01.934,ask open question
-Participant,00:04:38.850,00:04:55.519,00:00:16.669,well most of the time i look at the companies website i look at what they do exactly what product they are selling abd wether my skills and qualifications match that product and then i try to kind of write the speech in my head how i introduce myself and connect my skills
-DF,00:04:38.850,00:04:39.720,00:00:00.870,FP
-Furhat,00:04:55.000,00:05:12.504,00:00:17.504,give advice
-Participant,00:05:12.745,00:05:14.583,00:00:01.838,yes about the questions
-Furhat,00:05:17.018,00:05:19.413,00:00:02.395,ask open question
-Participant,00:05:20.810,00:05:29.284,00:00:08.474,well i want to ask about the salary for example and eh about the team that i'm going to work with and questions like that
-DF,00:05:20.810,00:05:21.230,00:00:00.420,FP
-DF,00:05:25.373,00:05:25.700,00:00:00.327,FP
-Furhat,00:05:30.928,00:05:48.629,00:00:17.701,give advice
-Participant,00:05:48.791,00:05:49.884,00:00:01.093,no thank you
-Furhat,00:05:54.087,00:05:54.950,00:00:00.863,no voice recognized 1st
-Participant,00:05:55.274,00:05:56.390,00:00:01.116,no thank you
-Furhat,00:05:57.740,00:06:01.634,00:00:03.894,ask if topic change
-Participant,00:06:01.904,00:06:03.044,00:00:01.140,no thank you
-Furhat,00:06:06.888,00:06:07.945,00:00:01.057,no voice recognized 1st
-Participant,00:06:08.559,00:06:10.176,00:00:01.617,no thank you so much
-Furhat,00:06:11.569,00:06:12.927,00:00:01.358,goodbye
+Furhat,0 days 00:00:00.358000,0 days 00:00:02.429000,0 days 00:00:02.071000,greeting
+Participant,0 days 00:00:03.159000,0 days 00:00:05.905000,0 days 00:00:02.746000,hi eh what can you help me with what are my options
+DF,0 days 00:00:03.754000,0 days 00:00:03.950000,0 days 00:00:00.196000,FP
+Furhat,0 days 00:00:07.682000,0 days 00:00:10.190000,0 days 00:00:02.508000,no match 1st
+Participant,0 days 00:00:10.453000,0 days 00:00:11.732000,0 days 00:00:01.279000,what are my options
+Furhat,0 days 00:00:13.127000,0 days 00:00:18.436000,0 days 00:00:05.309000,give options
+Participant,0 days 00:00:18.541000,0 days 00:00:20.390000,0 days 00:00:01.849000,yes can we talk about resumes
+Furhat,0 days 00:00:21.749000,0 days 00:00:22.464000,0 days 00:00:00.715000,CR
+Participant,0 days 00:00:22.721000,0 days 00:00:24.456000,0 days 00:00:01.735000,can we talk about resumes
+Furhat,0 days 00:00:25.958000,0 days 00:00:33.356000,0 days 00:00:07.398000,ask education
+Participant,0 days 00:00:33.689000,0 days 00:00:36.054000,0 days 00:00:02.365000,i'm currently doing by bachelors degree
+Furhat,0 days 00:00:37.362000,0 days 00:00:38.812000,0 days 00:00:01.450000,ask positions
+Participant,0 days 00:00:39.691000,0 days 00:00:41.446000,0 days 00:00:01.755000,what kind of positions do you mean
+Furhat,0 days 00:00:42.906000,0 days 00:00:45.686000,0 days 00:00:02.780000,no match 1st
+Participant,0 days 00:00:46.090000,0 days 00:00:47.684000,0 days 00:00:01.594000,can you repeat the question
+Furhat,0 days 00:00:48.933000,0 days 00:00:52.537000,0 days 00:00:03.604000,no match 2nd
+Participant,0 days 00:00:53.063000,0 days 00:00:54.989000,0 days 00:00:01.926000,yes what do you mean by position
+Furhat,0 days 00:00:56.633000,0 days 00:01:00.828000,0 days 00:00:04.195000,no match 3rd
+Participant,0 days 00:01:01.766000,0 days 00:01:05.973000,0 days 00:00:04.207000,oh ehm i currently work next to my studies if that's what you mean
+DF,0 days 00:01:02.193000,0 days 00:01:02.457000,0 days 00:00:00.264000,FP
+Furhat,0 days 00:01:07.995000,0 days 00:01:11.869000,0 days 00:00:03.874000,no match 3rd
+Participant,0 days 00:01:12.047000,0 days 00:01:12.780000,0 days 00:00:00.733000,one
+Furhat,0 days 00:01:17.343000,0 days 00:01:18.372000,0 days 00:00:01.029000,no voice recognized 1st
+Participant,0 days 00:01:19.071000,0 days 00:01:20.390000,0 days 00:00:01.319000,one position
+Furhat,0 days 00:01:21.922000,0 days 00:01:22.650000,0 days 00:00:00.728000,CR
+Participant,0 days 00:01:22.913000,0 days 00:01:23.430000,0 days 00:00:00.517000,one
+Furhat,0 days 00:01:24.988000,0 days 00:01:28.806000,0 days 00:00:03.818000,ask experience
+Participant,0 days 00:01:29.753000,0 days 00:01:31.211000,0 days 00:00:01.458000,three years now
+Furhat,0 days 00:01:33.732000,0 days 00:01:40.677000,0 days 00:00:06.945000,ask open question
+Participant,0 days 00:01:42.161000,0 days 00:01:53.534000,0 days 00:00:11.373000,i don't know what the companies want to see on the cv i don't know which one i should which which of  my abilities and which of my education and what is the most important thing that i should display in it
+DF,0 days 00:01:45.680000,0 days 00:01:48.950000,0 days 00:00:03.270000,SUB
+Furhat,0 days 00:01:55.137000,0 days 00:01:59.319000,0 days 00:00:04.182000,ask advice need
+DF,0 days 00:02:00.290000,0 days 00:02:00.868000,0 days 00:00:00.578000,FP
+Participant,0 days 00:02:00.290000,0 days 00:02:09.540000,0 days 00:00:09.250000,ehm what is the best option to find a tech job what kind of skills should i put in my cv
+Furhat,0 days 00:02:11.587000,0 days 00:02:21.169000,0 days 00:00:09.582000,give options
+Participant,0 days 00:02:21.741000,0 days 00:02:24.393000,0 days 00:00:02.652000,i would like to know how to write my first cv
+Furhat,0 days 00:02:25.846000,0 days 00:02:28.550000,0 days 00:00:02.704000,no match 1st
+Participant,0 days 00:02:28.736000,0 days 00:02:31.625000,0 days 00:00:02.889000,i would like to know how to write my first cv
+Furhat,0 days 00:02:32.915000,0 days 00:02:57.842000,0 days 00:00:24.927000,give advice
+Participant,0 days 00:02:58.025000,0 days 00:02:58.796000,0 days 00:00:00.771000,yes please
+Furhat,0 days 00:03:00.190000,0 days 00:03:03.017000,0 days 00:00:02.827000,ask advice need
+DF,0 days 00:03:04.210000,0 days 00:03:04.520000,0 days 00:00:00.310000,FP
+Participant,0 days 00:03:04.219000,0 days 00:03:05.826000,0 days 00:00:01.607000,eh the stucture again
+Furhat,0 days 00:03:07.126000,0 days 00:03:09.895000,0 days 00:00:02.769000,no match 1st
+Participant,0 days 00:03:10.081000,0 days 00:03:11.409000,0 days 00:00:01.328000,what are my options
+Furhat,0 days 00:03:12.708000,0 days 00:03:22.394000,0 days 00:00:09.686000,give options
+Participant,0 days 00:03:22.586000,0 days 00:03:24.929000,0 days 00:00:02.343000,i want to know more about the content
+Furhat,0 days 00:03:24.975000,0 days 00:03:28.057000,0 days 00:00:03.082000,no match 2nd
+Participant,0 days 00:03:28.080000,0 days 00:03:30.266000,0 days 00:00:02.186000,i want to know more about the content
+Furhat,0 days 00:03:31.829000,0 days 00:03:55.042000,0 days 00:00:23.213000,give advice
+Participant,0 days 00:03:55.262000,0 days 00:03:56.262000,0 days 00:00:01,no thnak you
+Furhat,0 days 00:03:57.392000,0 days 00:03:59.440000,0 days 00:00:02.048000,ask if topic change
+Participant,0 days 00:03:59.762000,0 days 00:04:00.390000,0 days 00:00:00.628000,yes
+Furhat,0 days 00:04:02.852000,0 days 00:04:04.425000,0 days 00:00:01.573000,ask for topic
+Participant,0 days 00:04:04.631000,0 days 00:04:06.038000,0 days 00:00:01.407000,what are my options
+Furhat,0 days 00:04:07.715000,0 days 00:04:09.171000,0 days 00:00:01.456000,CR
+Participant,0 days 00:04:09.041000,0 days 00:04:10.425000,0 days 00:00:01.384000,what are my options
+Furhat,0 days 00:04:12.108000,0 days 00:04:18.070000,0 days 00:00:05.962000,give options
+Participant,0 days 00:04:18.154000,0 days 00:04:19.830000,0 days 00:00:01.676000,yes the interviews
+Furhat,0 days 00:04:21.153000,0 days 00:04:31.460000,0 days 00:00:10.307000,ask advice need
+Participant,0 days 00:04:31.953000,0 days 00:04:34.110000,0 days 00:00:02.157000,i would like to know more about the preparation
+Furhat,0 days 00:04:35.514000,0 days 00:04:37.448000,0 days 00:00:01.934000,ask open question
+Participant,0 days 00:04:38.850000,0 days 00:04:55.519000,0 days 00:00:16.669000,well most of the time i look at the companies website i look at what they do exactly what product they are selling abd wether my skills and qualifications match that product and then i try to kind of write the speech in my head how i introduce myself and connect my skills
+DF,0 days 00:04:38.850000,0 days 00:04:39.720000,0 days 00:00:00.870000,FP
+Furhat,0 days 00:04:55,0 days 00:05:12.504000,0 days 00:00:17.504000,give advice
+Participant,0 days 00:05:12.745000,0 days 00:05:14.583000,0 days 00:00:01.838000,yes about the questions
+Furhat,0 days 00:05:17.018000,0 days 00:05:19.413000,0 days 00:00:02.395000,ask open question
+Participant,0 days 00:05:20.810000,0 days 00:05:29.284000,0 days 00:00:08.474000,well i want to ask about the salary for example and eh about the team that i'm going to work with and questions like that
+DF,0 days 00:05:20.810000,0 days 00:05:21.230000,0 days 00:00:00.420000,FP
+DF,0 days 00:05:25.373000,0 days 00:05:25.700000,0 days 00:00:00.327000,FP
+Furhat,0 days 00:05:30.928000,0 days 00:05:48.629000,0 days 00:00:17.701000,give advice
+Participant,0 days 00:05:48.791000,0 days 00:05:49.884000,0 days 00:00:01.093000,no thank you
+Furhat,0 days 00:05:54.087000,0 days 00:05:54.950000,0 days 00:00:00.863000,no voice recognized 1st
+Participant,0 days 00:05:55.274000,0 days 00:05:56.390000,0 days 00:00:01.116000,no thank you
+Furhat,0 days 00:05:57.740000,0 days 00:06:01.634000,0 days 00:00:03.894000,ask if topic change
+Participant,0 days 00:06:01.904000,0 days 00:06:03.044000,0 days 00:00:01.140000,no thank you
+Furhat,0 days 00:06:06.888000,0 days 00:06:07.945000,0 days 00:00:01.057000,no voice recognized 1st
+Participant,0 days 00:06:08.559000,0 days 00:06:10.176000,0 days 00:00:01.617000,no thank you so much
+Furhat,0 days 00:06:11.569000,0 days 00:06:12.927000,0 days 00:00:01.358000,goodbye
