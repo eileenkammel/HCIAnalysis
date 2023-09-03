@@ -1,0 +1,60 @@
+speaker,start,end,duration,text
+Participant,00:00:09.821,00:00:10.753,00:00:00.932,hello
+Participant,00:00:14.827,00:00:16.201,00:00:01.374,what are my options
+Participant,00:00:23.403,00:00:24.774,00:00:01.371,what are my options
+Participant,00:00:32.000,00:00:34.180,00:00:02.180,I would like to talk about interviews
+Participant,00:00:52.006,00:00:53.453,00:00:01.447,interview questions
+Participant,00:01:00.117,00:01:00.712,00:00:00.595,yes
+Participant,00:01:19.830,00:01:20.467,00:00:00.637,yes
+Participant,00:01:24.620,00:01:26.896,00:00:02.276,yes technical skills
+Participant,00:01:30.696,00:01:31.170,00:00:00.474,wha-
+Participant,00:01:32.200,00:01:33.906,00:00:01.706,yes what are my options
+Participant,00:01:36.741,00:01:38.156,00:00:01.415,what are my options
+Participant,00:01:47.257,00:01:48.440,00:00:01.183,technical test
+Participant,00:01:50.923,00:01:51.609,00:00:00.686,i would like-
+Participant,00:01:51.987,00:01:52.764,00:00:00.777,i would like t-
+Participant,00:01:55.500,00:01:58.775,00:00:03.275,yes I would like to know about technical test
+Participant,00:02:09.301,00:02:10.082,00:00:00.781,a lot
+Participant,00:02:12.254,00:02:12.758,00:00:00.504,oh
+Participant,00:02:34.964,00:02:35.550,00:00:00.586,no
+Participant,00:02:48.725,00:02:50.260,00:00:01.535,yes what are my options
+Participant,00:02:53.506,00:02:54.103,00:00:00.597,what
+Participant,00:02:54.357,00:02:55.491,00:00:01.134,what are my options
+Participant,00:03:02.871,00:03:05.019,00:00:02.148,can you give me the options i have
+Participant,00:03:11.290,00:03:12.899,00:00:01.609,can you give me the options
+DF,00:03:20.230,00:03:20.603,00:00:00.373,FP
+Participant,00:03:20.233,00:03:22.854,00:00:02.621,mh yes I would like to know my options
+Participant,00:03:29.403,00:03:30.200,00:00:00.797,cv
+Participant,00:03:37.677,00:03:39.072,00:00:01.395,ah resume resume
+Participant,00:03:45.829,00:03:46.708,00:00:00.879,bachelor
+Participant,00:03:50.283,00:03:51.658,00:00:01.375,i have a bachelor
+Participant,00:04:02.645,00:04:03.209,00:00:00.564,five
+Participant,00:04:07.768,00:04:09.094,00:00:01.326,five positions
+Participant,00:04:13.424,00:04:15.157,00:00:01.733,i had five positions
+Participant,00:04:19.894,00:04:21.669,00:00:01.775,twenty years
+DF,00:04:20.500,00:04:20.990,00:00:00.490,UP
+Participant,00:04:31.786,00:04:32.700,00:00:00.914,cannot write
+Participant,00:04:38.886,00:04:39.750,00:00:00.864,how to write
+Participant,00:04:45.385,00:04:46.710,00:00:01.325,how to write
+DF,00:04:53.810,00:04:54.700,00:00:00.890,SUB
+Participant,00:05:07.400,00:05:12.290,00:00:04.890,i would like to know how to ehm write the content
+DF,00:05:09.403,00:05:10.490,00:00:01.087,UP
+DF,00:05:10.490,00:05:11.050,00:00:00.560,FP
+Participant,00:05:16.913,00:05:20.638,00:00:03.725,i want to know about about the content of my resume
+DF,00:05:17.460,00:05:19.060,00:00:01.600,REP
+Participant,00:05:30.906,00:05:31.805,00:00:00.899,bachelor
+Participant,00:05:42.853,00:05:44.020,00:00:01.167,what are my options
+Participant,00:05:50.963,00:05:52.358,00:00:01.395,what are my options
+DF,00:06:03.563,00:06:03.890,00:00:00.327,FP
+Participant,00:06:03.580,00:06:05.472,00:00:01.892,mh about cv structure
+Participant,00:06:09.803,00:06:11.113,00:00:01.310,cv structure
+Participant,00:06:29.543,00:06:32.040,00:00:02.497,i would like to know about cv structure
+Participant,00:07:07.152,00:07:08.826,00:00:01.674,no that is all
+DF,00:07:11.877,00:07:12.390,00:00:00.513,FP
+Participant,00:07:11.941,00:07:14.694,00:00:02.753,hm i am done thank you
+DF,00:07:12.390,00:07:13.540,00:00:01.150,UP
+Participant,00:07:19.627,00:07:20.936,00:00:01.309,that is all
+Participant,00:07:27.360,00:07:28.581,00:00:01.221,i am done
+Participant,00:07:31.259,00:07:31.858,00:00:00.599,no
+Participant,00:07:32.563,00:07:33.215,00:00:00.652,no
+Participant,00:07:39.134,00:07:39.800,00:00:00.666,thank you

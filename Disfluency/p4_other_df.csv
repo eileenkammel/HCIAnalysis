@@ -1,0 +1,30 @@
+speaker,start,end,duration,text
+Participant,00:00:03.796,00:00:05.596,00:00:01.800,i need help for an interview
+Participant,00:00:18.850,00:00:20.379,00:00:01.529,the interview questions
+Participant,00:00:22.663,00:00:24.075,00:00:01.412,interview questions
+Participant,00:00:31.407,00:00:31.972,00:00:00.565,no
+Participant,00:00:52.251,00:00:54.389,00:00:02.138,is there more about interview questions
+Participant,00:01:02.500,00:01:05.002,00:00:02.502,what is your five year plan
+Participant,00:01:24.100,00:01:25.607,00:00:01.507,what are the other options
+Participant,00:01:33.958,00:01:35.182,00:00:01.224,preparation please
+Participant,00:01:37.444,00:01:38.313,00:00:00.869,preparation
+Participant,00:01:44.185,00:01:44.961,00:00:00.776,no
+Participant,00:01:50.224,00:01:50.901,00:00:00.677,no
+Participant,00:02:12.106,00:02:13.157,00:00:01.051,what are my options
+Participant,00:02:21.097,00:02:22.444,00:00:01.347,technical test
+Participant,00:02:27.031,00:02:28.283,00:00:01.252,what are my options
+Participant,00:02:36.067,00:02:37.586,00:00:01.519,oh technical task
+Participant,00:02:40.090,00:02:40.533,00:00:00.443,what
+Participant,00:02:43.088,00:02:44.826,00:00:01.738,yes technical task
+Participant,00:02:55.086,00:02:56.543,00:00:01.457,technical task
+Participant,00:03:03.935,00:03:05.824,00:00:01.889,technical task
+Participant,00:03:08.980,00:03:11.591,00:00:02.611,oh test it is test after all
+Participant,00:03:12.586,00:03:14.128,00:00:01.542,eh technical test
+Participant,00:03:19.051,00:03:21.365,00:00:02.314,i have no idea whatsoever 
+Participant,00:03:46.380,00:03:47.169,00:00:00.789,no thank you
+Participant,00:03:53.250,00:03:54.250,00:00:01.000,how was your day
+Participant,00:03:56.750,00:03:57.390,00:00:00.640,i know
+Participant,00:03:58.847,00:04:00.422,00:00:01.575,eh no thank you
+DF,00:03:58.990,00:03:59.360,00:00:00.370,FP
+Participant,00:04:03.322,00:04:03.960,00:00:00.638,i know
+Participant,00:04:05.293,00:04:06.249,00:00:00.956,thank you

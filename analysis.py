@@ -79,6 +79,11 @@ def total_talk_duration(transcript_df, participant_no):
     }
 
 
+def get_overlap(transcript_df):
+    overlap = transcript_df["speaker"].value_counts()["Overlap"]
+    return overlap
+
+
 def analyze_general(transcript_df, participant_no):
     participant_no = participant_no
     dia_len = get_dialogue_length(transcript_df)
@@ -90,11 +95,13 @@ def analyze_general(transcript_df, participant_no):
         words, utterances_p)
     disfluencies = count_disfluencies(transcript_df)
     mean_sil_btw_turns = get_mean_time_btw_turns(transcript_df)
+    overlap = get_overlap(transcript_df)
 
     return {
         "participant_no": participant_no,
         "dialogue lenght": dia_len,
         "utterances (p/f)": utterances,
+        "overlap": overlap,
         "words": words,
         "mean words per utterance (p)": mean_words_per_utterance,
         "disfluencies": disfluencies,
@@ -104,7 +111,7 @@ def analyze_general(transcript_df, participant_no):
 
 def general_stats(path_to_trancripts):
     gen_stats = pd.DataFrame(columns=["participant_no", "dialogue lenght", "utterances (p/f)",
-                             "words", "mean words per utterance (p)", "disfluencies", "mean silence between turns"])
+                             "overlap", "words", "mean words per utterance (p)", "disfluencies", "mean silence between turns"])
     for participant in range(2, 8):
         path = os.path.join(path_to_trancripts, "p" +
                             str(participant)+"_transcript.csv")
@@ -144,7 +151,7 @@ def analyze_disfluencies(transcript_df, participant_no):
 
 def disfluency_stats(path_to_trancripts):
     df_stats = pd.DataFrame(columns=["participant_no", "total_df", "mean_per_word",
-                             "mean_per_utterance", "fp", "up", "rep", "sub", "art", "cd"])
+                                     "mean_per_utterance", "fp", "up", "rep", "sub", "art", "cd"])
     for participant in range(2, 8):
         path = os.path.join(path_to_trancripts, "p" +
                             str(participant)+"_transcript.csv")
@@ -156,32 +163,37 @@ def disfluency_stats(path_to_trancripts):
     df_stats.to_csv("disfluency_stats.csv", index=False)
 
 
-def analize_all(path_to_trancripts):
-    results_df = pd.DataFrame(columns=["participant_no", "words", "utterances", "disfluencies",
-                              "disfluencies_histo", "mean_words_per_utterance", "mean_dfs_per_utterance", "mean_dfs_per_word"])
-    total_talk = pd.DataFrame(
-        columns=["participant_no", "participant_talk", "furhat_talk"])
-    for participant in range(2, 8):
+# find all rows where speaker Participant and speaker DF have the same value for start
+# and end
+def find_start_disfluencies(transcript_df):
+    speaker_df = transcript_df[(transcript_df["speaker"] == "Participant") | (
+        transcript_df["speaker"] == "DF")]
+    # find start values that occur more than once
+    start_df = speaker_df[speaker_df.duplicated(["start"], keep=False)]
+    other_df = speaker_df.drop_duplicates(["start"], keep=False)
+    return start_df, other_df
 
+
+def disfluency_location(path_to_trancripts):
+    for participant in range(2, 8):
         path = os.path.join(path_to_trancripts, "p" +
                             str(participant)+"_transcript.csv")
         transcript_df = pd.read_csv(path, sep=",", header=0)
-        transcript_df["start"] = pd.to_timedelta(transcript_df["start"])
-        transcript_df["end"] = pd.to_timedelta(transcript_df["end"])
-        transcript_df["duration"] = pd.to_timedelta(transcript_df["duration"])
-        row = analyze_general(transcript_df, participant)
-        results_df = pd.concat([results_df, pd.DataFrame([row])])
-        row = total_talk_duration(transcript_df, participant)
-        total_talk = pd.concat(
-            [total_talk, pd.DataFrame([row])])
-    results_df.sort_values(by="participant_no", inplace=True)
-    results_df.reset_index(drop=True, inplace=True)
-    results_df.to_csv("results.csv", index=False)
-    total_talk.sort_values(by="participant_no", inplace=True)
-    total_talk.reset_index(drop=True, inplace=True)
-    total_talk.to_csv("total_talk_duration.csv", index=False)
+        start_df, other_df = find_start_disfluencies(transcript_df)
+        out_path = "Disfluency/"
+        start_out = os.path.join(
+            out_path, "p" + str(participant)+"_start_df.csv")
+        other_out = os.path.join(
+            out_path, "p" + str(participant)+"_other_df.csv")
+        start_df.to_csv(start_out, index=False)
+        other_df.to_csv(other_out, index=False)
 
 
-# analize_all("/Users/eileen/HCIAnalysis/Transcripts")
-# general_stats("/Users/eileen/HCIAnalysis/Transcripts")
-disfluency_stats("/Users/eileen/HCIAnalysis/Transcripts")
+# Get general dialogue stats. One output file for all participants
+general_stats("Transcripts")
+
+# Get general disfluency stats. One output file for all participants
+#disfluency_stats("Transcripts")
+
+# Further analyze disfluencies
+#disfluency_location("Transcripts")
