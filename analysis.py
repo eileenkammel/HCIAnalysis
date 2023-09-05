@@ -84,12 +84,18 @@ def get_overlap(transcript_df):
     return overlap
 
 
+def add_mean_row(transcript_df):
+    mean_row = transcript_df.mean()
+    mean_row["Participant"] = "Mean"
+    transcript_df = pd.concat([transcript_df, pd.DataFrame([mean_row])])
+    return transcript_df
+
+
 def analyze_general(transcript_df, participant_no):
     participant_no = participant_no
     dia_len = get_dialogue_length(transcript_df)
     utterances_p = count_participant_utterances(transcript_df)
     utterances_f = count_furhat_utterances(transcript_df)
-    utterances = str(utterances_p) + "/" + str(utterances_f)
     words = count_words(transcript_df)
     mean_words_per_utterance = get_mean_words_per_utterance(
         words, utterances_p)
@@ -98,20 +104,21 @@ def analyze_general(transcript_df, participant_no):
     overlap = get_overlap(transcript_df)
 
     return {
-        "participant_no": participant_no,
-        "dialogue lenght": dia_len,
-        "utterances (p/f)": utterances,
-        "overlap": overlap,
-        "words": words,
-        "mean words per utterance (p)": mean_words_per_utterance,
-        "disfluencies": disfluencies,
-        "mean silence between turns": mean_sil_btw_turns
+        "Participant": participant_no,
+        "Lenght": dia_len,
+        "Utts P ": utterances_p,
+        "Utts F": utterances_f,
+        "Overlap": overlap,
+        "Words": words,
+        "Mean Words per Utt": mean_words_per_utterance,
+        "DF": disfluencies,
+        "Mean SIL between Turns": mean_sil_btw_turns
     }
 
 
 def general_stats(path_to_trancripts):
-    gen_stats = pd.DataFrame(columns=["participant_no", "dialogue lenght", "utterances (p/f)",
-                             "overlap", "words", "mean words per utterance (p)", "disfluencies", "mean silence between turns"])
+    gen_stats = pd.DataFrame(columns=["Participant", "Lenght", "Utts P ",
+                                      "Utts F", "Overlap", "Words", "Mean Words per Utt", "DF", "Mean SIL between Turns"])
     for participant in range(2, 8):
         path = os.path.join(path_to_trancripts, "p" +
                             str(participant)+"_transcript.csv")
@@ -121,8 +128,9 @@ def general_stats(path_to_trancripts):
         transcript_df["duration"] = pd.to_timedelta(transcript_df["duration"])
         row = analyze_general(transcript_df, participant)
         gen_stats = pd.concat([gen_stats, pd.DataFrame([row])])
-    gen_stats.sort_values(by="participant_no", inplace=True)
+    gen_stats.sort_values(by="Participant", inplace=True)
     gen_stats.reset_index(drop=True, inplace=True)
+    gen_stats = add_mean_row(gen_stats)
     gen_stats.to_csv("general_stats.csv", index=False)
 
 
@@ -193,7 +201,8 @@ def disfluency_location(path_to_trancripts):
 general_stats("Transcripts")
 
 # Get general disfluency stats. One output file for all participants
-#disfluency_stats("Transcripts")
+# disfluency_stats("Transcripts")
 
 # Further analyze disfluencies
-#disfluency_location("Transcripts")
+# disfluency_location("Transcripts")
+
