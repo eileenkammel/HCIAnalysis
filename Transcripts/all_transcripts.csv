@@ -1,0 +1,785 @@
+Participant No,speaker,start,end,duration,text
+2,Furhat,00:00:00.000,00:00:01.310,00:00:01.310,greeting
+2,Silence,00:00:01.310,00:00:06.639,00:00:05.329,silence
+2,Furhat,00:00:06.639,00:00:07.647,00:00:01.008,no voice recognized 1st
+2,Silence,00:00:07.647,00:00:09.821,00:00:02.174,silence
+2,Participant,00:00:09.821,00:00:10.753,00:00:00.932,hello
+2,Silence,00:00:10.753,00:00:12.037,00:00:01.284,silence
+2,Furhat,00:00:12.037,00:00:14.610,00:00:02.573,no match 1st
+2,Silence,00:00:14.610,00:00:14.827,00:00:00.217,silence
+2,Participant,00:00:14.827,00:00:16.201,00:00:01.374,what are my options
+2,Silence,00:00:16.201,00:00:23.403,00:00:07.202,silence
+2,Participant,00:00:23.403,00:00:24.774,00:00:01.371,what are my options
+2,Silence,00:00:24.774,00:00:26.372,00:00:01.598,silence
+2,Furhat,00:00:26.372,00:00:31.613,00:00:05.241,give options
+2,Silence,00:00:31.613,00:00:32.000,00:00:00.387,silence
+2,Participant,00:00:32.000,00:00:34.180,00:00:02.180,I would like to talk about interviews
+2,Silence,00:00:34.180,00:00:35.518,00:00:01.338,silence
+2,Furhat,00:00:35.518,00:00:46.589,00:00:11.071,ask for advice need
+2,Silence,00:00:46.589,00:00:47.120,00:00:00.531,silence
+2,DF,00:00:47.120,00:00:47.680,00:00:00.560,FP
+2,Participant,00:00:47.120,00:00:48.920,00:00:01.800,mh interview questions
+2,Silence,00:00:48.920,00:00:50.327,00:00:01.407,silence
+2,Furhat,00:00:50.327,00:00:51.538,00:00:01.211,CR
+2,Silence,00:00:51.538,00:00:52.006,00:00:00.468,silence
+2,Participant,00:00:52.006,00:00:53.453,00:00:01.447,interview questions
+2,Silence,00:00:53.453,00:00:54.760,00:00:01.307,silence
+2,Furhat,00:00:54.760,00:00:59.530,00:00:04.770,ask open question
+2,Silence,00:00:59.530,00:01:00.117,00:00:00.587,silence
+2,Participant,00:01:00.117,00:01:00.712,00:00:00.595,yes
+2,Silence,00:01:00.712,00:01:02.100,00:00:01.388,silence
+2,Furhat,00:01:02.100,00:01:18.840,00:00:16.740,give advice
+2,Silence,00:01:18.840,00:01:19.830,00:00:00.990,silence
+2,Participant,00:01:19.830,00:01:20.467,00:00:00.637,yes
+2,Silence,00:01:20.467,00:01:21.735,00:00:01.268,silence
+2,Furhat,00:01:21.735,00:01:24.321,00:00:02.586,no match 1st
+2,Silence,00:01:24.321,00:01:24.620,00:00:00.299,silence
+2,Participant,00:01:24.620,00:01:26.896,00:00:02.276,yes technical skills
+2,Silence,00:01:26.896,00:01:28.475,00:00:01.579,silence
+2,Furhat,00:01:28.475,00:01:31.550,00:00:03.075,no match 2nd
+2,Overlap,00:01:30.696,00:01:31.170,00:00:00.474,overlap
+2,Participant,00:01:30.696,00:01:31.170,00:00:00.474,wha-
+2,Silence,00:01:31.550,00:01:32.200,00:00:00.650,silence
+2,Participant,00:01:32.200,00:01:33.906,00:00:01.706,yes what are my options
+2,Silence,00:01:33.906,00:01:35.321,00:00:01.415,silence
+2,Furhat,00:01:35.321,00:01:36.130,00:00:00.809,CR
+2,Silence,00:01:36.130,00:01:36.741,00:00:00.611,silence
+2,Participant,00:01:36.741,00:01:38.156,00:00:01.415,what are my options
+2,Silence,00:01:38.156,00:01:39.591,00:00:01.435,silence
+2,Furhat,00:01:39.591,00:01:46.813,00:00:07.222,give options
+2,Silence,00:01:46.813,00:01:47.257,00:00:00.444,silence
+2,Participant,00:01:47.257,00:01:48.440,00:00:01.183,technical test
+2,Silence,00:01:48.440,00:01:49.706,00:00:01.266,silence
+2,Furhat,00:01:49.706,00:01:54.084,00:00:04.378,no match 3rd
+2,Participant,00:01:50.923,00:01:51.609,00:00:00.686,i would like-
+2,Overlap,00:01:50.923,00:01:51.609,00:00:00.686,overlap
+2,Participant,00:01:51.987,00:01:52.764,00:00:00.777,i would like t-
+2,Overlap,00:01:51.987,00:01:52.764,00:00:00.777,overlap
+2,Silence,00:01:54.084,00:01:55.500,00:00:01.416,silence
+2,Participant,00:01:55.500,00:01:58.775,00:00:03.275,yes I would like to know about technical test
+2,Silence,00:01:58.775,00:02:01.505,00:00:02.730,silence
+2,Furhat,00:02:01.505,00:02:04.993,00:00:03.488,ask open question
+2,Silence,00:02:04.993,00:02:09.301,00:00:04.308,silence
+2,Participant,00:02:09.301,00:02:10.082,00:00:00.781,a lot
+2,Silence,00:02:10.082,00:02:10.862,00:00:00.780,silence
+2,Furhat,00:02:10.862,00:02:34.908,00:00:24.046,give advice
+2,Participant,00:02:12.254,00:02:12.758,00:00:00.504,oh
+2,Overlap,00:02:12.254,00:02:12.758,00:00:00.504,overlap
+2,Silence,00:02:34.908,00:02:34.964,00:00:00.056,silence
+2,Participant,00:02:34.964,00:02:35.550,00:00:00.586,no
+2,Silence,00:02:35.550,00:02:37.156,00:00:01.606,silence
+2,Furhat,00:02:37.156,00:02:41.904,00:00:04.748,ask if topic change
+2,Silence,00:02:41.904,00:02:43.590,00:00:01.686,silence
+2,DF,00:02:43.590,00:02:44.430,00:00:00.840,SUB
+2,Participant,00:02:43.590,00:02:44.430,00:00:00.840,n- yes
+2,Silence,00:02:44.430,00:02:47.169,00:00:02.739,silence
+2,Furhat,00:02:47.169,00:02:48.306,00:00:01.137,no voice recognized 1st
+2,Silence,00:02:48.306,00:02:48.725,00:00:00.419,silence
+2,Participant,00:02:48.725,00:02:50.260,00:00:01.535,yes what are my options
+2,Silence,00:02:50.260,00:02:51.488,00:00:01.228,silence
+2,Furhat,00:02:51.488,00:02:54.160,00:00:02.672,no match 1st
+2,Participant,00:02:53.506,00:02:54.103,00:00:00.597,what
+2,Overlap,00:02:53.506,00:02:54.103,00:00:00.597,overlap
+2,Silence,00:02:54.160,00:02:54.357,00:00:00.197,silence
+2,Participant,00:02:54.357,00:02:55.491,00:00:01.134,what are my options
+2,Silence,00:02:55.491,00:02:59.744,00:00:04.253,silence
+2,Furhat,00:02:59.744,00:03:02.250,00:00:02.506,no voice recognizes 2nd
+2,Silence,00:03:02.250,00:03:02.871,00:00:00.621,silence
+2,Participant,00:03:02.871,00:03:05.019,00:00:02.148,can you give me the options i have
+2,Silence,00:03:05.019,00:03:06.293,00:00:01.274,silence
+2,Furhat,00:03:06.293,00:03:09.522,00:00:03.229,no match 2nd
+2,Silence,00:03:09.522,00:03:11.290,00:00:01.768,silence
+2,Participant,00:03:11.290,00:03:12.899,00:00:01.609,can you give me the options
+2,Silence,00:03:12.899,00:03:14.528,00:00:01.629,silence
+2,Furhat,00:03:14.528,00:03:19.010,00:00:04.482,no match 3rd
+2,Silence,00:03:19.010,00:03:20.233,00:00:01.223,silence
+2,DF,00:03:20.230,00:03:20.603,00:00:00.373,FP
+2,Participant,00:03:20.233,00:03:22.854,00:00:02.621,mh yes I would like to know my options
+2,Silence,00:03:22.854,00:03:24.833,00:00:01.979,silence
+2,Furhat,00:03:24.833,00:03:27.053,00:00:02.220,ask for topic
+2,Silence,00:03:27.053,00:03:29.403,00:00:02.350,silence
+2,Participant,00:03:29.403,00:03:30.200,00:00:00.797,cv
+2,Silence,00:03:30.200,00:03:37.677,00:00:07.477,silence
+2,Participant,00:03:37.677,00:03:39.072,00:00:01.395,ah resume resume
+2,Silence,00:03:39.072,00:03:40.685,00:00:01.613,silence
+2,Furhat,00:03:40.685,00:03:45.421,00:00:04.736,ask education
+2,Silence,00:03:45.421,00:03:45.829,00:00:00.408,silence
+2,Participant,00:03:45.829,00:03:46.708,00:00:00.879,bachelor
+2,Silence,00:03:46.708,00:03:48.303,00:00:01.595,silence
+2,Furhat,00:03:48.303,00:03:49.910,00:00:01.607,CR
+2,Silence,00:03:49.910,00:03:50.283,00:00:00.373,silence
+2,Participant,00:03:50.283,00:03:51.658,00:00:01.375,i have a bachelor
+2,Silence,00:03:51.658,00:03:52.889,00:00:01.231,silence
+2,Furhat,00:03:52.889,00:03:55.999,00:00:03.110,ask positions
+2,Silence,00:03:55.999,00:03:56.670,00:00:00.671,silence
+2,Participant,00:03:56.670,00:03:57.933,00:00:01.263,ah five
+2,DF,00:03:56.670,00:03:57.164,00:00:00.494,FP
+2,Silence,00:03:57.933,00:04:02.645,00:00:04.712,silence
+2,Participant,00:04:02.645,00:04:03.209,00:00:00.564,five
+2,Silence,00:04:03.209,00:04:07.768,00:00:04.559,silence
+2,Participant,00:04:07.768,00:04:09.094,00:00:01.326,five positions
+2,Silence,00:04:09.094,00:04:13.424,00:00:04.330,silence
+2,Participant,00:04:13.424,00:04:15.157,00:00:01.733,i had five positions
+2,Silence,00:04:15.157,00:04:16.733,00:00:01.576,silence
+2,Furhat,00:04:16.733,00:04:18.981,00:00:02.248,ask experience
+2,Silence,00:04:18.981,00:04:19.894,00:00:00.913,silence
+2,Participant,00:04:19.894,00:04:21.669,00:00:01.775,twenty years
+2,DF,00:04:20.500,00:04:20.990,00:00:00.490,UP
+2,Silence,00:04:21.669,00:04:23.660,00:00:01.991,silence
+2,Furhat,00:04:23.660,00:04:30.783,00:00:07.123,ask open question
+2,Silence,00:04:30.783,00:04:31.786,00:00:01.003,silence
+2,Participant,00:04:31.786,00:04:32.700,00:00:00.914,cannot write
+2,Silence,00:04:32.700,00:04:34.201,00:00:01.501,silence
+2,Furhat,00:04:34.201,00:04:38.045,00:00:03.844,ask for advice need
+2,Silence,00:04:38.045,00:04:38.886,00:00:00.841,silence
+2,Participant,00:04:38.886,00:04:39.750,00:00:00.864,how to write
+2,Silence,00:04:39.750,00:04:41.328,00:00:01.578,silence
+2,Furhat,00:04:41.328,00:04:43.969,00:00:02.641,no match 1st
+2,Silence,00:04:43.969,00:04:45.385,00:00:01.416,silence
+2,Participant,00:04:45.385,00:04:46.710,00:00:01.325,how to write
+2,Silence,00:04:46.710,00:04:48.140,00:00:01.430,silence
+2,Furhat,00:04:48.140,00:04:51.315,00:00:03.175,no match 2nd
+2,Silence,00:04:51.315,00:04:51.370,00:00:00.055,silence
+2,Participant,00:04:51.370,00:04:55.652,00:00:04.282,mh can i ask him about how are what are my options
+2,DF,00:04:51.370,00:04:51.850,00:00:00.480,FP
+2,DF,00:04:53.810,00:04:54.700,00:00:00.890,SUB
+2,Silence,00:04:55.652,00:04:57.164,00:00:01.512,silence
+2,Furhat,00:04:57.164,00:05:06.725,00:00:09.561,give options
+2,Silence,00:05:06.725,00:05:07.400,00:00:00.675,silence
+2,Participant,00:05:07.400,00:05:12.290,00:00:04.890,i would like to know how to ehm write the content
+2,DF,00:05:09.403,00:05:10.490,00:00:01.087,UP
+2,DF,00:05:10.490,00:05:11.050,00:00:00.560,FP
+2,Overlap,00:05:10.993,00:05:12.290,00:00:01.297,overlap
+2,Furhat,00:05:10.993,00:05:16.670,00:00:05.677,no match 3rd
+2,Silence,00:05:16.670,00:05:16.913,00:00:00.243,silence
+2,Participant,00:05:16.913,00:05:20.638,00:00:03.725,i want to know about about the content of my resume
+2,DF,00:05:17.460,00:05:19.060,00:00:01.600,REP
+2,Silence,00:05:20.638,00:05:22.286,00:00:01.648,silence
+2,Furhat,00:05:22.286,00:05:28.320,00:00:06.034,ask education
+2,Silence,00:05:28.320,00:05:30.906,00:00:02.586,silence
+2,Participant,00:05:30.906,00:05:31.805,00:00:00.899,bachelor
+2,Silence,00:05:31.805,00:05:33.275,00:00:01.470,silence
+2,Furhat,00:05:33.275,00:05:40.627,00:00:07.352,ask open question
+2,Silence,00:05:40.627,00:05:42.853,00:00:02.226,silence
+2,Participant,00:05:42.853,00:05:44.020,00:00:01.167,what are my options
+2,Silence,00:05:44.020,00:05:45.612,00:00:01.592,silence
+2,Furhat,00:05:45.612,00:05:49.551,00:00:03.939,ask advice needs
+2,Silence,00:05:49.551,00:05:50.963,00:00:01.412,silence
+2,Participant,00:05:50.963,00:05:52.358,00:00:01.395,what are my options
+2,Silence,00:05:52.358,00:05:53.161,00:00:00.803,silence
+2,Furhat,00:05:53.161,00:06:03.170,00:00:10.009,give options
+2,Silence,00:06:03.170,00:06:03.580,00:00:00.410,silence
+2,DF,00:06:03.563,00:06:03.890,00:00:00.327,FP
+2,Participant,00:06:03.580,00:06:05.472,00:00:01.892,mh about cv structure
+2,Silence,00:06:05.472,00:06:08.573,00:00:03.101,silence
+2,Furhat,00:06:08.573,00:06:09.642,00:00:01.069,no voice recognized 1st
+2,Silence,00:06:09.642,00:06:09.803,00:00:00.161,silence
+2,Participant,00:06:09.803,00:06:11.113,00:00:01.310,cv structure
+2,Silence,00:06:11.113,00:06:15.179,00:00:04.066,silence
+2,Furhat,00:06:15.179,00:06:17.641,00:00:02.462,no voice recognized 2nd
+2,Silence,00:06:17.641,00:06:18.020,00:00:00.379,silence
+2,Participant,00:06:18.020,00:06:20.497,00:00:02.477,ah yes cv structure
+2,DF,00:06:18.020,00:06:18.448,00:00:00.428,FP
+2,Silence,00:06:20.497,00:06:23.148,00:00:02.651,silence
+2,Furhat,00:06:23.148,00:06:28.804,00:00:05.656,no voice recognized 3rd
+2,Silence,00:06:28.804,00:06:29.543,00:00:00.739,silence
+2,Participant,00:06:29.543,00:06:32.040,00:00:02.497,i would like to know about cv structure
+2,Silence,00:06:32.040,00:06:33.857,00:00:01.817,silence
+2,Furhat,00:06:33.857,00:07:06.957,00:00:33.100,give advice
+2,Silence,00:07:06.957,00:07:07.152,00:00:00.195,silence
+2,Participant,00:07:07.152,00:07:08.826,00:00:01.674,no that is all
+2,Silence,00:07:08.826,00:07:09.354,00:00:00.528,silence
+2,Furhat,00:07:09.354,00:07:11.209,00:00:01.855,ask if topic change
+2,Silence,00:07:11.209,00:07:11.941,00:00:00.732,silence
+2,DF,00:07:11.877,00:07:12.390,00:00:00.513,FP
+2,Participant,00:07:11.941,00:07:14.694,00:00:02.753,hm i am done thank you
+2,DF,00:07:12.390,00:07:13.540,00:00:01.150,UP
+2,Silence,00:07:14.694,00:07:16.203,00:00:01.509,silence
+2,Furhat,00:07:16.203,00:07:18.785,00:00:02.582,no match 1st
+2,Silence,00:07:18.785,00:07:19.627,00:00:00.842,silence
+2,Participant,00:07:19.627,00:07:20.936,00:00:01.309,that is all
+2,Silence,00:07:20.936,00:07:27.360,00:00:06.424,silence
+2,Participant,00:07:27.360,00:07:28.581,00:00:01.221,i am done
+2,Silence,00:07:28.581,00:07:31.259,00:00:02.678,silence
+2,Participant,00:07:31.259,00:07:31.858,00:00:00.599,no
+2,Silence,00:07:31.858,00:07:32.563,00:00:00.705,silence
+2,Participant,00:07:32.563,00:07:33.215,00:00:00.652,no
+2,Silence,00:07:33.215,00:07:35.624,00:00:02.409,silence
+2,Furhat,00:07:35.624,00:07:38.569,00:00:02.945,goodbye
+2,Silence,00:07:38.569,00:07:39.134,00:00:00.565,silence
+2,Participant,00:07:39.134,00:07:39.800,00:00:00.666,thank you
+3,Furhat,00:00:00.460,00:00:01.990,00:00:01.530,greeting
+3,Silence,00:00:01.990,00:00:04.160,00:00:02.170,silence
+3,DF,00:00:04.160,00:00:04.420,00:00:00.260, FP
+3,Participant,00:00:04.160,00:00:05.657,00:00:01.497,eh what are my options
+3,Silence,00:00:05.657,00:00:07.093,00:00:01.436,silence
+3,Furhat,00:00:07.093,00:00:12.290,00:00:05.197,give options
+3,Silence,00:00:12.290,00:00:13.410,00:00:01.120,silence
+3,Participant,00:00:13.410,00:00:15.220,00:00:01.810,eh let's talk about interviews
+3,DF,00:00:13.410,00:00:13.770,00:00:00.360,FP
+3,Silence,00:00:15.220,00:00:16.680,00:00:01.460,silence
+3,Furhat,00:00:16.680,00:00:27.906,00:00:11.226,ask advice need
+3,Silence,00:00:27.906,00:00:29.330,00:00:01.424,silence
+3,Participant,00:00:29.330,00:00:31.844,00:00:02.514,eh how would i prepare for an interview
+3,DF,00:00:29.330,00:00:29.740,00:00:00.410,FP
+3,Silence,00:00:31.844,00:00:33.184,00:00:01.340,silence
+3,Furhat,00:00:33.184,00:00:33.768,00:00:00.584,CR
+3,Silence,00:00:33.768,00:00:34.749,00:00:00.981,silence
+3,Participant,00:00:34.749,00:00:37.650,00:00:02.901,how do i prepare for an interview
+3,Silence,00:00:37.650,00:00:39.085,00:00:01.435,silence
+3,Furhat,00:00:39.085,00:00:42.149,00:00:03.064,ask open question
+3,Silence,00:00:42.149,00:00:45.300,00:00:03.151,silence
+3,Participant,00:00:45.300,00:00:54.609,00:00:09.309,ehm i guess i would look up the company details and eh try to anpici- anticipate the questions 
+3,DF,00:00:45.300,00:00:46.050,00:00:00.750,FP
+3,DF,00:00:50.959,00:00:51.432,00:00:00.473,FP
+3,DF,00:00:52.390,00:00:53.560,00:00:01.170,ART
+3,Silence,00:00:54.609,00:00:56.314,00:00:01.705,silence
+3,Furhat,00:00:56.314,00:01:13.786,00:00:17.472,give advice
+3,Silence,00:01:13.786,00:01:14.920,00:00:01.134,silence
+3,DF,00:01:14.920,00:01:15.500,00:00:00.580,FP
+3,Participant,00:01:14.920,00:01:20.490,00:00:05.570,eh yes thank you what were my options again
+3,DF,00:01:15.500,00:01:17.910,00:00:02.410,UP
+3,Silence,00:01:20.490,00:01:22.001,00:00:01.511,silence
+3,Furhat,00:01:22.001,00:01:23.542,00:00:01.541,CR
+3,Silence,00:01:23.542,00:01:23.739,00:00:00.197,silence
+3,Participant,00:01:23.739,00:01:24.966,00:00:01.227,what are my options
+3,Silence,00:01:24.966,00:01:26.357,00:00:01.391,silence
+3,Furhat,00:01:26.357,00:01:34.106,00:00:07.749,give options
+3,Silence,00:01:34.106,00:01:34.850,00:00:00.744,silence
+3,Participant,00:01:34.850,00:01:38.070,00:00:03.220,eh what can you tell me about the technical test
+3,DF,00:01:34.850,00:01:35.430,00:00:00.580,FP
+3,Silence,00:01:38.070,00:01:40.760,00:00:02.690,silence
+3,Furhat,00:01:40.760,00:01:43.280,00:00:02.520,ask open question
+3,Silence,00:01:43.280,00:01:44.515,00:00:01.235,silence
+3,Participant,00:01:44.515,00:01:46.584,00:00:02.069,no i haven't had to do it before
+3,Silence,00:01:46.584,00:01:47.864,00:00:01.280,silence
+3,Furhat,00:01:47.864,00:02:10.491,00:00:22.627,give advice
+3,Silence,00:02:10.491,00:02:12.140,00:00:01.649,silence
+3,DF,00:02:12.140,00:02:12.840,00:00:00.700,FP
+3,Participant,00:02:12.140,00:02:18.304,00:00:06.164,ehm no thanks to your advice i feel much better prepared now thank you
+3,Silence,00:02:18.304,00:02:19.820,00:00:01.516,silence
+3,Participant,00:02:19.820,00:02:20.344,00:00:00.524,i'm done
+3,Furhat,00:02:19.830,00:02:23.760,00:00:03.930,ask if topic change
+3,Overlap,00:02:19.830,00:02:20.344,00:00:00.514,overlap
+3,Silence,00:02:23.760,00:02:25.160,00:00:01.400,silence
+3,Participant,00:02:25.160,00:02:26.670,00:00:01.510,no we are done
+3,Silence,00:02:26.670,00:02:28.709,00:00:02.039,silence
+3,Furhat,00:02:28.709,00:02:31.322,00:00:02.613,goodbye
+3,Silence,00:02:31.322,00:02:31.764,00:00:00.442,silence
+3,Participant,00:02:31.764,00:02:32.470,00:00:00.706,you too
+4,Furhat,00:00:00.408,00:00:01.860,00:00:01.452,greeting
+4,Silence,00:00:01.860,00:00:03.796,00:00:01.936,silence
+4,Participant,00:00:03.796,00:00:05.596,00:00:01.800,i need help for an interview
+4,Silence,00:00:05.596,00:00:06.911,00:00:01.315,silence
+4,Furhat,00:00:06.911,00:00:18.058,00:00:11.147,ask for advice need
+4,Silence,00:00:18.058,00:00:18.850,00:00:00.792,silence
+4,Participant,00:00:18.850,00:00:20.379,00:00:01.529,the interview questions
+4,Silence,00:00:20.379,00:00:21.656,00:00:01.277,silence
+4,Furhat,00:00:21.656,00:00:22.103,00:00:00.447,CR
+4,Silence,00:00:22.103,00:00:22.663,00:00:00.560,silence
+4,Participant,00:00:22.663,00:00:24.075,00:00:01.412,interview questions
+4,Silence,00:00:24.075,00:00:25.468,00:00:01.393,silence
+4,Furhat,00:00:25.468,00:00:30.656,00:00:05.188,ask open question
+4,Silence,00:00:30.656,00:00:31.407,00:00:00.751,silence
+4,Participant,00:00:31.407,00:00:31.972,00:00:00.565,no
+4,Silence,00:00:31.972,00:00:33.421,00:00:01.449,silence
+4,Furhat,00:00:33.421,00:00:50.322,00:00:16.901,give advice
+4,Silence,00:00:50.322,00:00:52.251,00:00:01.929,silence
+4,Participant,00:00:52.251,00:00:54.389,00:00:02.138,is there more about interview questions
+4,Silence,00:00:54.389,00:00:56.157,00:00:01.768,silence
+4,Furhat,00:00:56.157,00:01:01.203,00:00:05.046,ask open question
+4,Silence,00:01:01.203,00:01:02.500,00:00:01.297,silence
+4,Participant,00:01:02.500,00:01:05.002,00:00:02.502,what is your five year plan
+4,Silence,00:01:05.002,00:01:06.521,00:00:01.519,silence
+4,Furhat,00:01:06.521,00:01:23.572,00:00:17.051,give advice
+4,Silence,00:01:23.572,00:01:24.100,00:00:00.528,silence
+4,Participant,00:01:24.100,00:01:25.607,00:00:01.507,what are the other options
+4,Silence,00:01:25.607,00:01:27.390,00:00:01.783,silence
+4,Furhat,00:01:27.390,00:01:33.530,00:00:06.140,give options
+4,Silence,00:01:33.530,00:01:33.958,00:00:00.428,silence
+4,Participant,00:01:33.958,00:01:35.182,00:00:01.224,preparation please
+4,Silence,00:01:35.182,00:01:36.399,00:00:01.217,silence
+4,Furhat,00:01:36.399,00:01:37.312,00:00:00.913,CR
+4,Silence,00:01:37.312,00:01:37.444,00:00:00.132,silence
+4,Participant,00:01:37.444,00:01:38.313,00:00:00.869,preparation
+4,Silence,00:01:38.313,00:01:39.853,00:00:01.540,silence
+4,Furhat,00:01:39.853,00:01:43.262,00:00:03.409,ask open question
+4,Silence,00:01:43.262,00:01:44.185,00:00:00.923,silence
+4,Participant,00:01:44.185,00:01:44.961,00:00:00.776,no
+4,Silence,00:01:44.961,00:01:48.470,00:00:03.509,silence
+4,Furhat,00:01:48.470,00:01:49.349,00:00:00.879,no voice recognized 1st
+4,Silence,00:01:49.349,00:01:50.224,00:00:00.875,silence
+4,Participant,00:01:50.224,00:01:50.901,00:00:00.677,no
+4,Silence,00:01:50.901,00:01:52.218,00:00:01.317,silence
+4,Furhat,00:01:52.218,00:02:10.710,00:00:18.492,give advice
+4,Silence,00:02:10.710,00:02:12.106,00:00:01.396,silence
+4,Participant,00:02:12.106,00:02:13.157,00:00:01.051,what are my options
+4,Silence,00:02:13.157,00:02:14.377,00:00:01.220,silence
+4,Furhat,00:02:14.377,00:02:20.732,00:00:06.355,give options
+4,Silence,00:02:20.732,00:02:21.097,00:00:00.365,silence
+4,Participant,00:02:21.097,00:02:22.444,00:00:01.347,technical test
+4,Silence,00:02:22.444,00:02:23.679,00:00:01.235,silence
+4,Furhat,00:02:23.679,00:02:26.350,00:00:02.671,no match 1st
+4,Silence,00:02:26.350,00:02:27.031,00:00:00.681,silence
+4,Participant,00:02:27.031,00:02:28.283,00:00:01.252,what are my options
+4,Silence,00:02:28.283,00:02:29.637,00:00:01.354,silence
+4,Furhat,00:02:29.637,00:02:35.888,00:00:06.251,give options
+4,Silence,00:02:35.888,00:02:36.067,00:00:00.179,silence
+4,Participant,00:02:36.067,00:02:37.586,00:00:01.519,oh technical task
+4,Silence,00:02:37.586,00:02:39.244,00:00:01.658,silence
+4,Furhat,00:02:39.244,00:02:42.228,00:00:02.984,no match 2nd
+4,Overlap,00:02:40.090,00:02:40.533,00:00:00.443,overlap
+4,Participant,00:02:40.090,00:02:40.533,00:00:00.443,what
+4,Silence,00:02:42.228,00:02:43.088,00:00:00.860,silence
+4,Participant,00:02:43.088,00:02:44.826,00:00:01.738,yes technical task
+4,Silence,00:02:44.826,00:02:47.468,00:00:02.642,silence
+4,Furhat,00:02:47.468,00:02:54.760,00:00:07.292,give options
+4,Silence,00:02:54.760,00:02:55.086,00:00:00.326,silence
+4,Participant,00:02:55.086,00:02:56.543,00:00:01.457,technical task
+4,Silence,00:02:56.543,00:02:58.226,00:00:01.683,silence
+4,Furhat,00:02:58.226,00:03:02.752,00:00:04.526,no match 3rd
+4,Silence,00:03:02.752,00:03:03.935,00:00:01.183,silence
+4,Participant,00:03:03.935,00:03:05.824,00:00:01.889,technical task
+4,Silence,00:03:05.824,00:03:07.259,00:00:01.435,silence
+4,Furhat,00:03:07.259,00:03:12.335,00:00:05.076,no match 3rd
+4,Overlap,00:03:08.980,00:03:11.591,00:00:02.611,overlap
+4,Participant,00:03:08.980,00:03:11.591,00:00:02.611,oh test it is test after all
+4,Silence,00:03:12.335,00:03:12.586,00:00:00.251,silence
+4,Participant,00:03:12.586,00:03:14.128,00:00:01.542,eh technical test
+4,Silence,00:03:14.128,00:03:16.051,00:00:01.923,silence
+4,Furhat,00:03:16.051,00:03:18.532,00:00:02.481,ask open question
+4,Silence,00:03:18.532,00:03:19.051,00:00:00.519,silence
+4,Participant,00:03:19.051,00:03:21.365,00:00:02.314,i have no idea whatsoever 
+4,Silence,00:03:21.365,00:03:22.570,00:00:01.205,silence
+4,Furhat,00:03:22.570,00:03:46.166,00:00:23.596,give advice
+4,Silence,00:03:46.166,00:03:46.380,00:00:00.214,silence
+4,Participant,00:03:46.380,00:03:47.169,00:00:00.789,no thank you
+4,Silence,00:03:47.169,00:03:48.568,00:00:01.399,silence
+4,Furhat,00:03:48.568,00:03:52.438,00:00:03.870,ask if topic change
+4,Silence,00:03:52.438,00:03:53.250,00:00:00.812,silence
+4,Participant,00:03:53.250,00:03:54.250,00:00:01.000,how was your day
+4,Silence,00:03:54.250,00:03:55.723,00:00:01.473,silence
+4,Furhat,00:03:55.723,00:03:58.797,00:00:03.074,no match 1st
+4,Overlap,00:03:56.750,00:03:57.390,00:00:00.640,overlap
+4,Participant,00:03:56.750,00:03:57.390,00:00:00.640,i know
+4,Silence,00:03:58.797,00:03:58.847,00:00:00.050,silence
+4,Participant,00:03:58.847,00:04:00.422,00:00:01.575,eh no thank you
+4,DF,00:03:58.990,00:03:59.360,00:00:00.370,FP
+4,Silence,00:04:00.422,00:04:01.859,00:00:01.437,silence
+4,Furhat,00:04:01.859,00:04:04.710,00:00:02.851,goodbye
+4,Participant,00:04:03.322,00:04:03.960,00:00:00.638,i know
+4,Overlap,00:04:03.322,00:04:03.960,00:00:00.638,overlap
+4,Silence,00:04:04.710,00:04:05.293,00:00:00.583,silence
+4,Participant,00:04:05.293,00:04:06.249,00:00:00.956,thank you
+5,Furhat,00:00:00.431,00:00:02.401,00:00:01.970,greeting
+5,Silence,00:00:02.401,00:00:03.337,00:00:00.936,silence
+5,DF,00:00:03.312,00:00:04.022,00:00:00.710,REP
+5,Participant,00:00:03.337,00:00:05.331,00:00:01.994,wi- with what can you help me with
+5,Silence,00:00:05.331,00:00:06.394,00:00:01.063,silence
+5,Furhat,00:00:06.394,00:00:09.490,00:00:03.096,no match 1st
+5,Silence,00:00:09.490,00:00:10.316,00:00:00.826,silence
+5,DF,00:00:10.310,00:00:11.150,00:00:00.840,REP
+5,Participant,00:00:10.316,00:00:15.409,00:00:05.093,what are what are my options what eh what what do you what can you help me with
+5,DF,00:00:12.325,00:00:12.710,00:00:00.385,FP
+5,DF,00:00:12.710,00:00:14.530,00:00:01.820,SUB
+5,Silence,00:00:15.409,00:00:17.138,00:00:01.729,silence
+5,Furhat,00:00:17.138,00:00:22.552,00:00:05.414,give options
+5,Silence,00:00:22.552,00:00:23.041,00:00:00.489,silence
+5,Participant,00:00:23.041,00:00:25.313,00:00:02.272,yeah for sure let's start with resumes
+5,Silence,00:00:25.313,00:00:26.655,00:00:01.342,silence
+5,Furhat,00:00:26.655,00:00:32.440,00:00:05.785,ask education
+5,Silence,00:00:32.440,00:00:33.080,00:00:00.640,silence
+5,DF,00:00:33.080,00:00:33.240,00:00:00.160,FP
+5,Participant,00:00:33.080,00:00:41.577,00:00:08.497,eh currently my highest level of education is eh a bachelors degree that i finished but i am doing right now my masters
+5,DF,00:00:36.630,00:00:36.930,00:00:00.300,FP
+5,Silence,00:00:41.577,00:00:42.890,00:00:01.313,silence
+5,Furhat,00:00:42.890,00:00:44.507,00:00:01.617,ask positions
+5,Silence,00:00:44.507,00:00:45.402,00:00:00.895,silence
+5,DF,00:00:45.400,00:00:46.050,00:00:00.650,FP
+5,Participant,00:00:45.402,00:00:52.468,00:00:07.066,ehm i've worked in two jobs so far ehm both as a working student in software engineering 
+5,DF,00:00:48.481,00:00:48.910,00:00:00.429,FP
+5,Silence,00:00:52.468,00:00:53.992,00:00:01.524,silence
+5,Furhat,00:00:53.992,00:00:56.780,00:00:02.788,no match 1st
+5,Silence,00:00:56.780,00:00:57.641,00:00:00.861,silence
+5,DF,00:00:57.640,00:00:57.830,00:00:00.190,FP
+5,Participant,00:00:57.641,00:01:04.921,00:00:07.280, eh i wor- i've worked in two jobs so far eh both were as a working student in software engineering
+5,DF,00:00:57.840,00:00:58.780,00:00:00.940,SUB
+5,DF,00:01:01.181,00:01:01.550,00:00:00.369,FP
+5,Silence,00:01:04.921,00:01:06.469,00:00:01.548,silence
+5,Furhat,00:01:06.469,00:01:08.875,00:00:02.406,ask experience
+5,Silence,00:01:08.875,00:01:09.840,00:00:00.965,silence
+5,Participant,00:01:09.840,00:01:20.211,00:00:10.371,ehm w- workwise eh i got my first job in 2018 so this is five years now al- almost yeah 
+5,DF,00:01:09.840,00:01:10.565,00:00:00.725,FP
+5,DF,00:01:10.630,00:01:11.812,00:00:01.182,REP
+5,DF,00:01:18.572,00:01:19.620,00:00:01.048,REP
+5,Silence,00:01:20.211,00:01:21.916,00:00:01.705,silence
+5,Furhat,00:01:21.916,00:01:29.012,00:00:07.096,ask open question
+5,Silence,00:01:29.012,00:01:29.285,00:00:00.273,silence
+5,Participant,00:01:29.285,00:01:34.453,00:00:05.168,no i've i i have a bechelors degree you misunderstood me eh sorry 
+5,DF,00:01:29.755,00:01:31.163,00:00:01.408,SUB
+5,Silence,00:01:34.453,00:01:35.922,00:00:01.469,silence
+5,Furhat,00:01:35.922,00:01:39.712,00:00:03.790,ask advice need
+5,Silence,00:01:39.712,00:01:41.244,00:00:01.532,silence
+5,Participant,00:01:41.244,00:01:45.137,00:00:03.893,ehm i don't know i mean what advice can you offer
+5,DF,00:01:41.257,00:01:42.150,00:00:00.893,FP
+5,Silence,00:01:45.137,00:01:46.812,00:00:01.675,silence
+5,Furhat,00:01:46.812,00:01:49.533,00:00:02.721,no match 1st
+5,Silence,00:01:49.533,00:01:50.717,00:00:01.184,silence
+5,Participant,00:01:50.717,00:01:58.030,00:00:07.313,ehm what what what tips do you have for writing a cv what are my options
+5,DF,00:01:50.854,00:01:51.497,00:00:00.643,FP
+5,DF,00:01:51.901,00:01:53.183,00:00:01.282,REP
+5,DF,00:01:55.999,00:01:56.990,00:00:00.991,UP
+5,Furhat,00:01:57.955,00:02:00.801,00:00:02.846,no match 2nd
+5,Overlap,00:01:57.955,00:01:58.030,00:00:00.075,ehm what what what tips do you have for writing a cv what are my options no match 2nd
+5,Silence,00:02:00.801,00:02:01.164,00:00:00.363,silence
+5,Participant,00:02:01.164,00:02:02.931,00:00:01.767,what are what are my options
+5,DF,00:02:01.164,00:02:02.000,00:00:00.836,REP
+5,Silence,00:02:02.931,00:02:04.252,00:00:01.321,silence
+5,Furhat,00:02:04.252,00:02:14.122,00:00:09.870,give options
+5,Silence,00:02:14.122,00:02:14.418,00:00:00.296,silence
+5,Participant,00:02:14.418,00:02:17.815,00:00:03.397,ehm can you give me some advice about cv structure
+5,DF,00:02:14.418,00:02:15.130,00:00:00.712,FP
+5,Silence,00:02:17.815,00:02:19.084,00:00:01.269,silence
+5,Furhat,00:02:19.084,00:02:28.880,00:00:09.796,give options
+5,Silence,00:02:28.880,00:02:29.133,00:00:00.253,silence
+5,Participant,00:02:29.133,00:02:30.797,00:00:01.664,cv structure
+5,Silence,00:02:30.797,00:02:32.539,00:00:01.742,silence
+5,Furhat,00:02:32.539,00:03:05.552,00:00:33.013,give advice
+5,Silence,00:03:05.552,00:03:05.879,00:00:00.327,silence
+5,Participant,00:03:05.879,00:03:06.551,00:00:00.672,no
+5,Silence,00:03:06.551,00:03:08.101,00:00:01.550,silence
+5,Furhat,00:03:08.101,00:03:09.763,00:00:01.662,ask if topic change
+5,Silence,00:03:09.763,00:03:10.054,00:00:00.291,silence
+5,Participant,00:03:10.054,00:03:12.525,00:00:02.471,yeah let's talk about job interviews now
+5,Silence,00:03:12.525,00:03:13.296,00:00:00.771,silence
+5,Furhat,00:03:13.296,00:03:24.388,00:00:11.092,ask for advice need
+5,Silence,00:03:24.388,00:03:24.544,00:00:00.156,silence
+5,Participant,00:03:24.544,00:03:26.760,00:00:02.216,yeah then let's talk about preparation
+5,Silence,00:03:26.760,00:03:29.755,00:00:02.995,silence
+5,Furhat,00:03:29.755,00:03:30.790,00:00:01.035,no voice recognized 1st
+5,Silence,00:03:30.790,00:03:31.676,00:00:00.886,silence
+5,Participant,00:03:31.676,00:03:33.004,00:00:01.328,preparation
+5,Silence,00:03:33.004,00:03:35.402,00:00:02.398,silence
+5,Furhat,00:03:35.402,00:03:37.528,00:00:02.126,ask open question
+5,Silence,00:03:37.528,00:03:39.541,00:00:02.013,silence
+5,Participant,00:03:39.541,00:03:52.400,00:00:12.859,i don't know i research the job and then i have a look at the at the company to have some information about that beforehand and yeah otherwise i don't know i just present myself
+5,DF,00:03:43.450,00:03:44.510,00:00:01.060,REP
+5,Silence,00:03:52.400,00:03:53.958,00:00:01.558,silence
+5,Furhat,00:03:53.958,00:04:11.193,00:00:17.235,give advice
+5,Silence,00:04:11.193,00:04:11.491,00:00:00.298,silence
+5,Participant,00:04:11.491,00:04:14.204,00:00:02.713,yeah then let's talk about technical skills
+5,Overlap,00:04:13.659,00:04:14.204,00:00:00.545,yeah then let's talk about technical skills give options
+5,Furhat,00:04:13.659,00:04:20.849,00:00:07.190,give options
+5,Silence,00:04:20.849,00:04:21.031,00:00:00.182,silence
+5,Participant,00:04:21.031,00:04:22.360,00:00:01.329,technical test
+5,Silence,00:04:22.360,00:04:26.301,00:00:03.941,silence
+5,Furhat,00:04:26.301,00:04:27.133,00:00:00.832,no voice recognizes 1st
+5,Silence,00:04:27.133,00:04:28.327,00:00:01.194,silence
+5,Participant,00:04:28.327,00:04:29.851,00:00:01.524,technical test
+5,Silence,00:04:29.851,00:04:31.211,00:00:01.360,silence
+5,Furhat,00:04:31.211,00:04:33.604,00:00:02.393,ask open question
+5,Silence,00:04:33.604,00:04:34.720,00:00:01.116,silence
+5,Participant,00:04:34.720,00:04:53.120,00:00:18.400,ehm i think i should eh think about what eh specific role i have there and then think about maybe easy tasks that i could eh do for that so for example i don't know for one eh job interview i for example had to explain what an rest api is
+5,DF,00:04:34.720,00:04:35.350,00:00:00.630,FP
+5,DF,00:04:36.960,00:04:37.280,00:00:00.320,FP
+5,DF,00:04:38.500,00:04:38.880,00:00:00.380,FP
+5,DF,00:04:44.390,00:04:44.800,00:00:00.410,FP
+5,DF,00:04:48.310,00:04:48.710,00:00:00.400,FP
+5,Overlap,00:04:51.885,00:04:53.120,00:00:01.235,ehm i think i should eh think about what eh specific role i have there and then think about maybe easy tasks that i could eh do for that so for example i don't know for one eh job interview i for example had to explain what an rest api is give advice
+5,Furhat,00:04:51.885,00:05:13.380,00:00:21.495,give advice
+5,Silence,00:05:13.380,00:05:14.011,00:00:00.631,silence
+5,Participant,00:05:14.011,00:05:16.189,00:00:02.178,what are my options again
+5,Silence,00:05:16.189,00:05:17.287,00:00:01.098,silence
+5,Furhat,00:05:17.287,00:05:23.484,00:00:06.197,give options
+5,Silence,00:05:23.484,00:05:23.540,00:00:00.056,silence
+5,Participant,00:05:23.540,00:05:26.764,00:00:03.224,yeah then let's talk about the interview questions
+5,Silence,00:05:26.764,00:05:28.752,00:00:01.988,silence
+5,Furhat,00:05:28.752,00:05:29.888,00:00:01.136,no voice recognized 1st
+5,Silence,00:05:29.888,00:05:30.399,00:00:00.511,silence
+5,Participant,00:05:30.399,00:05:32.221,00:00:01.822,interview questions
+5,Silence,00:05:32.221,00:05:33.464,00:00:01.243,silence
+5,Furhat,00:05:33.464,00:05:35.774,00:00:02.310,ask open question
+5,Silence,00:05:35.774,00:05:37.193,00:00:01.419,silence
+5,Participant,00:05:37.193,00:05:39.994,00:00:02.801,i don't know usually i'm not the one who asks
+5,Silence,00:05:39.994,00:05:41.217,00:00:01.223,silence
+5,Furhat,00:05:41.217,00:05:59.825,00:00:18.608,give advice
+5,Silence,00:05:59.825,00:06:00.168,00:00:00.343,silence
+5,Participant,00:06:00.168,00:06:00.930,00:00:00.762,no
+5,Silence,00:06:00.930,00:06:02.435,00:00:01.505,silence
+5,Furhat,00:06:02.435,00:06:06.732,00:00:04.297,ask if topic change
+5,Silence,00:06:06.732,00:06:07.164,00:00:00.432,silence
+5,Participant,00:06:07.164,00:06:08.319,00:00:01.155,no thank you
+5,Silence,00:06:08.319,00:06:09.679,00:00:01.360,silence
+5,Furhat,00:06:09.679,00:06:12.526,00:00:02.847,goodbye
+6,Furhat,00:00:00.177,00:00:01.624,00:00:01.447,greeting
+6,Silence,00:00:01.624,00:00:02.760,00:00:01.136,silence
+6,Participant,00:00:02.760,00:00:06.870,00:00:04.110,ehm i'm fine actually so what are my opti-
+6,DF,00:00:02.826,00:00:03.459,00:00:00.633,FP
+6,Furhat,00:00:06.497,00:00:08.990,00:00:02.493,no match 1st
+6,Overlap,00:00:06.497,00:00:06.870,00:00:00.373,overlap
+6,Overlap,00:00:08.199,00:00:08.990,00:00:00.791,overlap
+6,Participant,00:00:08.199,00:00:08.995,00:00:00.796,what
+6,Silence,00:00:08.995,00:00:09.533,00:00:00.538,silence
+6,Participant,00:00:09.533,00:00:10.893,00:00:01.360,what are my options
+6,Silence,00:00:10.893,00:00:12.078,00:00:01.185,silence
+6,Furhat,00:00:12.078,00:00:17.343,00:00:05.265,give options
+6,Silence,00:00:17.343,00:00:19.120,00:00:01.777,silence
+6,Participant,00:00:19.120,00:00:20.231,00:00:01.111,interviews
+6,Silence,00:00:20.231,00:00:21.742,00:00:01.511,silence
+6,Furhat,00:00:21.742,00:00:22.970,00:00:01.228,CR
+6,Silence,00:00:22.970,00:00:23.121,00:00:00.151,silence
+6,Participant,00:00:23.121,00:00:24.123,00:00:01.002,interviews
+6,Silence,00:00:24.123,00:00:25.146,00:00:01.023,silence
+6,Furhat,00:00:25.146,00:00:37.770,00:00:12.624,ask for advice need
+6,Silence,00:00:37.770,00:00:39.770,00:00:02.000,silence
+6,Participant,00:00:39.770,00:00:44.732,00:00:04.962,it was eh i- it would be nice if you say something about the preparation
+6,DF,00:00:39.778,00:00:41.185,00:00:01.407,SUB
+6,Silence,00:00:44.732,00:00:46.637,00:00:01.905,silence
+6,Furhat,00:00:46.637,00:00:48.310,00:00:01.673,CR
+6,Silence,00:00:48.310,00:00:49.144,00:00:00.834,silence
+6,Participant,00:00:49.144,00:00:50.245,00:00:01.101,preparation
+6,Silence,00:00:50.245,00:00:51.336,00:00:01.091,silence
+6,Furhat,00:00:51.336,00:00:54.364,00:00:03.028,ask open question
+6,Silence,00:00:54.364,00:00:55.929,00:00:01.565,silence
+6,Participant,00:00:55.929,00:00:57.606,00:00:01.677,what i think about it
+6,Silence,00:00:57.606,00:00:58.898,00:00:01.292,silence
+6,Furhat,00:00:58.898,00:01:16.313,00:00:17.415,give advice
+6,Silence,00:01:16.313,00:01:17.477,00:00:01.164,silence
+6,DF,00:01:17.477,00:01:19.042,00:00:01.565,FP
+6,Participant,00:01:17.477,00:01:24.577,00:00:07.100,ehm eh yes how can i react when i'm nervous
+6,DF,00:01:19.046,00:01:19.933,00:00:00.887,UP
+6,Silence,00:01:24.577,00:01:25.750,00:00:01.173,silence
+6,Furhat,00:01:25.750,00:01:28.296,00:00:02.546,no match 1st
+6,Silence,00:01:28.296,00:01:28.369,00:00:00.073,silence
+6,Participant,00:01:28.369,00:01:29.685,00:00:01.316,what are my options
+6,Silence,00:01:29.685,00:01:33.364,00:00:03.679,silence
+6,Participant,00:01:33.364,00:01:34.637,00:00:01.273,what are my opt-
+6,Furhat,00:01:34.064,00:01:34.766,00:00:00.702,no voice recognized 1st
+6,Overlap,00:01:34.064,00:01:34.637,00:00:00.573,overlap
+6,Silence,00:01:34.766,00:01:35.393,00:00:00.627,silence
+6,Participant,00:01:35.393,00:01:37.562,00:00:02.169,what are my options
+6,Silence,00:01:37.562,00:01:38.974,00:00:01.412,silence
+6,Furhat,00:01:38.974,00:01:45.351,00:00:06.377,give options
+6,Silence,00:01:45.351,00:01:50.430,00:00:05.079,silence
+6,Participant,00:01:50.430,00:01:51.140,00:00:00.710,what
+6,Overlap,00:01:50.590,00:01:51.140,00:00:00.550,overlap
+6,Furhat,00:01:50.590,00:01:53.092,00:00:02.502,no voice recognized 2nd
+6,Participant,00:01:51.691,00:01:52.490,00:00:00.799,what are my
+6,Overlap,00:01:51.691,00:01:52.490,00:00:00.799,overlap
+6,Silence,00:01:53.092,00:01:53.313,00:00:00.221,silence
+6,DF,00:01:53.313,00:01:53.462,00:00:00.149,FP
+6,Participant,00:01:53.313,00:01:57.800,00:00:04.487,eh yes i can what are my options
+6,Silence,00:01:57.800,00:01:58.761,00:00:00.961,silence
+6,Furhat,00:01:58.761,00:02:06.014,00:00:07.253,give options
+6,Silence,00:02:06.014,00:02:10.487,00:00:04.473,silence
+6,DF,00:02:10.487,00:02:10.750,00:00:00.263,FP
+6,Participant,00:02:10.487,00:02:13.930,00:00:03.443,eh what technical test you are talking about
+6,Overlap,00:02:11.520,00:02:13.930,00:00:02.410,overlap
+6,Furhat,00:02:11.520,00:02:16.310,00:00:04.790,no voice recognized 3rd
+6,Silence,00:02:16.310,00:02:18.003,00:00:01.693,silence
+6,DF,00:02:18.003,00:02:18.477,00:00:00.474,FP
+6,Participant,00:02:18.003,00:02:20.676,00:00:02.673,eh what are my options
+6,Silence,00:02:20.676,00:02:21.579,00:00:00.903,silence
+6,Furhat,00:02:21.579,00:02:27.901,00:00:06.322,give options
+6,Silence,00:02:27.901,00:02:31.916,00:00:04.015,silence
+6,DF,00:02:31.916,00:02:43.379,00:00:11.463,CD
+6,Participant,00:02:31.916,00:02:43.379,00:00:11.463,how does a technical question how does th- this te- eh technical int- the technical interview how does it look like
+6,Overlap,00:02:35.860,00:02:39.222,00:00:03.362,overlap
+6,Furhat,00:02:35.860,00:02:39.222,00:00:03.362,no match 2nd
+6,Silence,00:02:43.379,00:02:44.551,00:00:01.172,silence
+6,Furhat,00:02:44.551,00:02:49.038,00:00:04.487,no voice recognized 3rd
+6,Silence,00:02:49.038,00:02:51.239,00:00:02.201,silence
+6,Participant,00:02:51.239,00:02:53.286,00:00:02.047,what are my options
+6,Silence,00:02:53.286,00:02:54.556,00:00:01.270,silence
+6,Furhat,00:02:54.556,00:02:55.141,00:00:00.585,CR
+6,Silence,00:02:55.141,00:02:56.516,00:00:01.375,silence
+6,Participant,00:02:56.516,00:02:58.755,00:00:02.239,what are my options
+6,Silence,00:02:58.755,00:02:59.849,00:00:01.094,silence
+6,Furhat,00:02:59.849,00:03:06.839,00:00:06.990,give options
+6,Silence,00:03:06.839,00:03:07.027,00:00:00.188,silence
+6,Participant,00:03:07.027,00:03:10.110,00:00:03.083,yes technical test what is that
+6,Silence,00:03:10.110,00:03:12.688,00:00:02.578,silence
+6,Participant,00:03:12.688,00:03:14.218,00:00:01.530,the technical test
+6,Silence,00:03:14.218,00:03:15.370,00:00:01.152,silence
+6,Furhat,00:03:15.370,00:03:16.485,00:00:01.115,CR
+6,Silence,00:03:16.485,00:03:17.896,00:00:01.411,silence
+6,Participant,00:03:17.896,00:03:21.660,00:00:03.764,technical test i don't understand wha-
+6,Overlap,00:03:21.470,00:03:21.660,00:00:00.190,overlap
+6,Furhat,00:03:21.470,00:03:26.110,00:00:04.640,ask open question
+6,Overlap,00:03:22.687,00:03:23.070,00:00:00.383,overlap
+6,Participant,00:03:22.687,00:03:23.070,00:00:00.383,yeah
+6,Silence,00:03:26.110,00:03:27.529,00:00:01.419,silence
+6,Participant,00:03:27.529,00:03:30.750,00:00:03.221,oh ehm i did a-
+6,DF,00:03:28.178,00:03:29.042,00:00:00.864,FP
+6,DF,00:03:29.042,00:03:30.050,00:00:01.008,UP
+6,Furhat,00:03:30.530,00:03:52.441,00:00:21.911,give advice
+6,Overlap,00:03:30.530,00:03:30.750,00:00:00.220,overlap
+6,Participant,00:03:37.248,00:03:37.986,00:00:00.738,ah okay
+6,Overlap,00:03:37.248,00:03:37.986,00:00:00.738,overlap
+6,Silence,00:03:52.441,00:03:53.208,00:00:00.767,silence
+6,Participant,00:03:53.208,00:03:56.345,00:00:03.137,thank you you helped me very much
+6,Furhat,00:03:55.759,00:03:58.297,00:00:02.538,no match 1st
+6,Overlap,00:03:55.759,00:03:56.345,00:00:00.586,overlap
+6,Silence,00:03:58.297,00:04:00.592,00:00:02.295,silence
+6,Participant,00:04:00.592,00:04:03.820,00:00:03.228,ah okay okay thank you very much
+6,Overlap,00:04:03.606,00:04:03.820,00:00:00.214,overlap
+6,Furhat,00:04:03.606,00:04:10.851,00:00:07.245,give options
+6,Silence,00:04:10.851,00:04:13.167,00:00:02.316,silence
+6,Participant,00:04:13.167,00:04:14.832,00:00:01.665,no thank you
+6,Silence,00:04:14.832,00:04:16.255,00:00:01.423,silence
+6,Furhat,00:04:16.255,00:04:20.193,00:00:03.938,ask if topic change
+6,Silence,00:04:20.193,00:04:22.179,00:00:01.986,silence
+6,Participant,00:04:22.179,00:04:24.866,00:00:02.687,thank you very much
+6,Silence,00:04:24.866,00:04:26.047,00:00:01.181,silence
+6,Furhat,00:04:26.047,00:04:28.879,00:00:02.832,goodbye
+6,Silence,00:04:28.879,00:04:29.427,00:00:00.548,silence
+6,Participant,00:04:29.427,00:04:30.690,00:00:01.263,have a nice day
+7,Furhat,00:00:00.358,00:00:02.429,00:00:02.071,greeting
+7,Silence,00:00:02.429,00:00:03.159,00:00:00.730,silence
+7,Participant,00:00:03.159,00:00:05.905,00:00:02.746,hi eh what can you help me with what are my options
+7,DF,00:00:03.754,00:00:03.950,00:00:00.196,FP
+7,Silence,00:00:05.905,00:00:07.682,00:00:01.777,silence
+7,Furhat,00:00:07.682,00:00:10.190,00:00:02.508,no match 1st
+7,Silence,00:00:10.190,00:00:10.453,00:00:00.263,silence
+7,Participant,00:00:10.453,00:00:11.732,00:00:01.279,what are my options
+7,Silence,00:00:11.732,00:00:13.127,00:00:01.395,silence
+7,Furhat,00:00:13.127,00:00:18.436,00:00:05.309,give options
+7,Silence,00:00:18.436,00:00:18.541,00:00:00.105,silence
+7,Participant,00:00:18.541,00:00:20.390,00:00:01.849,yes can we talk about resumes
+7,Silence,00:00:20.390,00:00:21.749,00:00:01.359,silence
+7,Furhat,00:00:21.749,00:00:22.464,00:00:00.715,CR
+7,Silence,00:00:22.464,00:00:22.721,00:00:00.257,silence
+7,Participant,00:00:22.721,00:00:24.456,00:00:01.735,can we talk about resumes
+7,Silence,00:00:24.456,00:00:25.958,00:00:01.502,silence
+7,Furhat,00:00:25.958,00:00:33.356,00:00:07.398,ask education
+7,Silence,00:00:33.356,00:00:33.689,00:00:00.333,silence
+7,Participant,00:00:33.689,00:00:36.054,00:00:02.365,i'm currently doing by bachelors degree
+7,Silence,00:00:36.054,00:00:37.362,00:00:01.308,silence
+7,Furhat,00:00:37.362,00:00:38.812,00:00:01.450,ask positions
+7,Silence,00:00:38.812,00:00:39.691,00:00:00.879,silence
+7,Participant,00:00:39.691,00:00:41.446,00:00:01.755,what kind of positions do you mean
+7,Silence,00:00:41.446,00:00:42.906,00:00:01.460,silence
+7,Furhat,00:00:42.906,00:00:45.686,00:00:02.780,no match 1st
+7,Silence,00:00:45.686,00:00:46.090,00:00:00.404,silence
+7,Participant,00:00:46.090,00:00:47.684,00:00:01.594,can you repeat the question
+7,Silence,00:00:47.684,00:00:48.933,00:00:01.249,silence
+7,Furhat,00:00:48.933,00:00:52.537,00:00:03.604,no match 2nd
+7,Silence,00:00:52.537,00:00:53.063,00:00:00.526,silence
+7,Participant,00:00:53.063,00:00:54.989,00:00:01.926,yes what do you mean by position
+7,Silence,00:00:54.989,00:00:56.633,00:00:01.644,silence
+7,Furhat,00:00:56.633,00:01:00.828,00:00:04.195,no match 3rd
+7,Silence,00:01:00.828,00:01:01.766,00:00:00.938,silence
+7,Participant,00:01:01.766,00:01:05.973,00:00:04.207,oh ehm i currently work next to my studies if that's what you mean
+7,DF,00:01:02.193,00:01:02.457,00:00:00.264,FP
+7,Silence,00:01:05.973,00:01:07.995,00:00:02.022,silence
+7,Furhat,00:01:07.995,00:01:11.869,00:00:03.874,no match 3rd
+7,Silence,00:01:11.869,00:01:12.047,00:00:00.178,silence
+7,Participant,00:01:12.047,00:01:12.780,00:00:00.733,one
+7,Silence,00:01:12.780,00:01:17.343,00:00:04.563,silence
+7,Furhat,00:01:17.343,00:01:18.372,00:00:01.029,no voice recognized 1st
+7,Silence,00:01:18.372,00:01:19.071,00:00:00.699,silence
+7,Participant,00:01:19.071,00:01:20.390,00:00:01.319,one position
+7,Silence,00:01:20.390,00:01:21.922,00:00:01.532,silence
+7,Furhat,00:01:21.922,00:01:22.650,00:00:00.728,CR
+7,Silence,00:01:22.650,00:01:22.913,00:00:00.263,silence
+7,Participant,00:01:22.913,00:01:23.430,00:00:00.517,one
+7,Silence,00:01:23.430,00:01:24.988,00:00:01.558,silence
+7,Furhat,00:01:24.988,00:01:28.806,00:00:03.818,ask experience
+7,Silence,00:01:28.806,00:01:29.753,00:00:00.947,silence
+7,Participant,00:01:29.753,00:01:31.211,00:00:01.458,three years now
+7,Silence,00:01:31.211,00:01:33.732,00:00:02.521,silence
+7,Furhat,00:01:33.732,00:01:40.677,00:00:06.945,ask open question
+7,Silence,00:01:40.677,00:01:42.161,00:00:01.484,silence
+7,Participant,00:01:42.161,00:01:53.534,00:00:11.373,i don't know what the companies want to see on the cv i don't know which one i should which which of  my abilities and which of my education and what is the most important thing that i should display in it
+7,DF,00:01:45.680,00:01:48.950,00:00:03.270,SUB
+7,Silence,00:01:53.534,00:01:55.137,00:00:01.603,silence
+7,Furhat,00:01:55.137,00:01:59.319,00:00:04.182,ask advice need
+7,Silence,00:01:59.319,00:02:00.290,00:00:00.971,silence
+7,DF,00:02:00.290,00:02:00.868,00:00:00.578,FP
+7,Participant,00:02:00.290,00:02:09.540,00:00:09.250,ehm what is the best option to find a tech job what kind of skills should i put in my cv
+7,Silence,00:02:09.540,00:02:11.587,00:00:02.047,silence
+7,Furhat,00:02:11.587,00:02:21.169,00:00:09.582,give options
+7,Silence,00:02:21.169,00:02:21.741,00:00:00.572,silence
+7,Participant,00:02:21.741,00:02:24.393,00:00:02.652,i would like to know how to write my first cv
+7,Silence,00:02:24.393,00:02:25.846,00:00:01.453,silence
+7,Furhat,00:02:25.846,00:02:28.550,00:00:02.704,no match 1st
+7,Silence,00:02:28.550,00:02:28.736,00:00:00.186,silence
+7,Participant,00:02:28.736,00:02:31.625,00:00:02.889,i would like to know how to write my first cv
+7,Silence,00:02:31.625,00:02:32.915,00:00:01.290,silence
+7,Furhat,00:02:32.915,00:02:57.842,00:00:24.927,give advice
+7,Silence,00:02:57.842,00:02:58.025,00:00:00.183,silence
+7,Participant,00:02:58.025,00:02:58.796,00:00:00.771,yes please
+7,Silence,00:02:58.796,00:03:00.190,00:00:01.394,silence
+7,Furhat,00:03:00.190,00:03:03.017,00:00:02.827,ask advice need
+7,Silence,00:03:03.017,00:03:04.219,00:00:01.202,silence
+7,DF,00:03:04.210,00:03:04.520,00:00:00.310,FP
+7,Participant,00:03:04.219,00:03:05.826,00:00:01.607,eh the stucture again
+7,Silence,00:03:05.826,00:03:07.126,00:00:01.300,silence
+7,Furhat,00:03:07.126,00:03:09.895,00:00:02.769,no match 1st
+7,Silence,00:03:09.895,00:03:10.081,00:00:00.186,silence
+7,Participant,00:03:10.081,00:03:11.409,00:00:01.328,what are my options
+7,Silence,00:03:11.409,00:03:12.708,00:00:01.299,silence
+7,Furhat,00:03:12.708,00:03:22.394,00:00:09.686,give options
+7,Silence,00:03:22.394,00:03:22.586,00:00:00.192,silence
+7,Participant,00:03:22.586,00:03:24.929,00:00:02.343,i want to know more about the content
+7,Silence,00:03:24.929,00:03:24.975,00:00:00.046,silence
+7,Furhat,00:03:24.975,00:03:28.057,00:00:03.082,no match 2nd
+7,Silence,00:03:28.057,00:03:28.080,00:00:00.023,silence
+7,Participant,00:03:28.080,00:03:30.266,00:00:02.186,i want to know more about the content
+7,Silence,00:03:30.266,00:03:31.829,00:00:01.563,silence
+7,Furhat,00:03:31.829,00:03:55.042,00:00:23.213,give advice
+7,Silence,00:03:55.042,00:03:55.262,00:00:00.220,silence
+7,Participant,00:03:55.262,00:03:56.262,00:00:01.000,no thnak you
+7,Silence,00:03:56.262,00:03:57.392,00:00:01.130,silence
+7,Furhat,00:03:57.392,00:03:59.440,00:00:02.048,ask if topic change
+7,Silence,00:03:59.440,00:03:59.762,00:00:00.322,silence
+7,Participant,00:03:59.762,00:04:00.390,00:00:00.628,yes
+7,Silence,00:04:00.390,00:04:02.852,00:00:02.462,silence
+7,Furhat,00:04:02.852,00:04:04.425,00:00:01.573,ask for topic
+7,Silence,00:04:04.425,00:04:04.631,00:00:00.206,silence
+7,Participant,00:04:04.631,00:04:06.038,00:00:01.407,what are my options
+7,Silence,00:04:06.038,00:04:07.715,00:00:01.677,silence
+7,Furhat,00:04:07.715,00:04:09.171,00:00:01.456,CR
+7,Overlap,00:04:09.041,00:04:09.171,00:00:00.130,overlap
+7,Participant,00:04:09.041,00:04:10.425,00:00:01.384,what are my options
+7,Silence,00:04:10.425,00:04:12.108,00:00:01.683,silence
+7,Furhat,00:04:12.108,00:04:18.070,00:00:05.962,give options
+7,Silence,00:04:18.070,00:04:18.154,00:00:00.084,silence
+7,Participant,00:04:18.154,00:04:19.830,00:00:01.676,yes the interviews
+7,Silence,00:04:19.830,00:04:21.153,00:00:01.323,silence
+7,Furhat,00:04:21.153,00:04:31.460,00:00:10.307,ask advice need
+7,Silence,00:04:31.460,00:04:31.953,00:00:00.493,silence
+7,Participant,00:04:31.953,00:04:34.110,00:00:02.157,i would like to know more about the preparation
+7,Silence,00:04:34.110,00:04:35.514,00:00:01.404,silence
+7,Furhat,00:04:35.514,00:04:37.448,00:00:01.934,ask open question
+7,Silence,00:04:37.448,00:04:38.850,00:00:01.402,silence
+7,Participant,00:04:38.850,00:04:55.519,00:00:16.669,well most of the time i look at the companies website i look at what they do exactly what product they are selling abd wether my skills and qualifications match that product and then i try to kind of write the speech in my head how i introduce myself and connect my skills
+7,DF,00:04:38.850,00:04:39.720,00:00:00.870,FP
+7,Overlap,00:04:55.000,00:04:55.519,00:00:00.519,overlap
+7,Furhat,00:04:55.000,00:05:12.504,00:00:17.504,give advice
+7,Silence,00:05:12.504,00:05:12.745,00:00:00.241,silence
+7,Participant,00:05:12.745,00:05:14.583,00:00:01.838,yes about the questions
+7,Silence,00:05:14.583,00:05:17.018,00:00:02.435,silence
+7,Furhat,00:05:17.018,00:05:19.413,00:00:02.395,ask open question
+7,Silence,00:05:19.413,00:05:20.810,00:00:01.397,silence
+7,DF,00:05:20.810,00:05:21.230,00:00:00.420,FP
+7,Participant,00:05:20.810,00:05:29.284,00:00:08.474,well i want to ask about the salary for example and eh about the team that i'm going to work with and questions like that
+7,DF,00:05:25.373,00:05:25.700,00:00:00.327,FP
+7,Silence,00:05:29.284,00:05:30.928,00:00:01.644,silence
+7,Furhat,00:05:30.928,00:05:48.629,00:00:17.701,give advice
+7,Silence,00:05:48.629,00:05:48.791,00:00:00.162,silence
+7,Participant,00:05:48.791,00:05:49.884,00:00:01.093,no thank you
+7,Silence,00:05:49.884,00:05:54.087,00:00:04.203,silence
+7,Furhat,00:05:54.087,00:05:54.950,00:00:00.863,no voice recognized 1st
+7,Silence,00:05:54.950,00:05:55.274,00:00:00.324,silence
+7,Participant,00:05:55.274,00:05:56.390,00:00:01.116,no thank you
+7,Silence,00:05:56.390,00:05:57.740,00:00:01.350,silence
+7,Furhat,00:05:57.740,00:06:01.634,00:00:03.894,ask if topic change
+7,Silence,00:06:01.634,00:06:01.904,00:00:00.270,silence
+7,Participant,00:06:01.904,00:06:03.044,00:00:01.140,no thank you
+7,Silence,00:06:03.044,00:06:06.888,00:00:03.844,silence
+7,Furhat,00:06:06.888,00:06:07.945,00:00:01.057,no voice recognized 1st
+7,Silence,00:06:07.945,00:06:08.559,00:00:00.614,silence
+7,Participant,00:06:08.559,00:06:10.176,00:00:01.617,no thank you so much
+7,Silence,00:06:10.176,00:06:11.569,00:00:01.393,silence
+7,Furhat,00:06:11.569,00:06:12.927,00:00:01.358,goodbye
