@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 # Script for generating tables and plots for the report
 
 
-df = pd.read_csv("general_stats.csv", sep=",", header=0)
+df = pd.read_csv("Data/general_stats.csv", sep=",", header=0)
 
 df.to_latex("Figures/general_stats.tex", index=False)
 
-df_disfluencies = pd.read_csv("disfluency_stats.csv", sep=",", header=0)
+df_disfluencies = pd.read_csv("Disfluency/disfluency_stats.csv", sep=",", header=0)
 print(df_disfluencies)
 
 
