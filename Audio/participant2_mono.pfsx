@@ -71,13 +71,13 @@
         <prefGroup key="SelectionPanelPref"/>
     </prefGroup>
     <prefGroup key="IAIS 04: Speech/Non-Speech detection based on pre-trained acoustic models for speech and non-speech">
-        <prefGroup key="segmentation_tier"/>
         <pref key="speech_sens_param">
             <String>0</String>
         </pref>
         <pref key="source_audio">
             <String>/Users/eileen/HCIAnalysis/Audio/participant2_mono.wav</String>
         </pref>
+        <prefGroup key="segmentation_tier"/>
     </prefGroup>
     <prefList key="MultiTierViewer.HiddenTiers"/>
     <prefList key="Interlinear.TierOrder">
@@ -97,7 +97,7 @@
         </prefList>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>452500</Long>
+        <Long>444770</Long>
     </pref>
     <pref key="MediaTime">
         <Long>1780</Long>
