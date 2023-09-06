@@ -62,7 +62,7 @@ def get_mean_time_btw_turns(transcript_df):
 
 
 def get_dialogue_length(transcript_df):
-    # substract start time because dialogues does not
+    # substract start time because dialogues do not
     # start at 0:00:00
     return transcript_df["end"].max() - transcript_df["start"].min()
 
@@ -91,6 +91,7 @@ def add_mean_row(transcript_df):
     return transcript_df
 
 
+# Wrapper function for all general stats
 def analyze_general(transcript_df, participant_no):
     participant_no = participant_no
     dia_len = get_dialogue_length(transcript_df)
@@ -116,7 +117,8 @@ def analyze_general(transcript_df, participant_no):
     }
 
 
-def general_stats(path_to_trancripts):
+# Get general dialogue stats. One output file for all participants
+def get_general_stats(path_to_trancripts):
     gen_stats = pd.DataFrame(columns=["Participant", "Lenght", "Utts P ",
                                       "Utts F", "Overlap", "Words", "Mean Words per Utt", "DF", "Mean SIL between Turns"])
     for participant in range(2, 8):
@@ -134,6 +136,7 @@ def general_stats(path_to_trancripts):
     gen_stats.to_csv("general_stats.csv", index=False)
 
 
+# Wrapper function for all disfluency stats
 def analyze_disfluencies(transcript_df, participant_no):
     participant_no = participant_no
     words = count_words(transcript_df)
@@ -144,7 +147,7 @@ def analyze_disfluencies(transcript_df, participant_no):
     utt_histo = get_disfluency_distribution(transcript_df)
     fp, up, rep, sub, art, cd = split_df_histo(utt_histo)
     return {
-        "participant_no": participant_no,
+        "Participant": participant_no,
         "total_df": total_df,
         "mean_per_word": mean_per_word,
         "mean_per_utterance": mean_per_utterance,
@@ -157,8 +160,9 @@ def analyze_disfluencies(transcript_df, participant_no):
     }
 
 
-def disfluency_stats(path_to_trancripts):
-    df_stats = pd.DataFrame(columns=["participant_no", "total_df", "mean_per_word",
+# Get general disfluency stats. One output file for all participants
+def get_disfluency_stats(path_to_trancripts):
+    df_stats = pd.DataFrame(columns=["Participant", "total_df", "mean_per_word",
                                      "mean_per_utterance", "fp", "up", "rep", "sub", "art", "cd"])
     for participant in range(2, 8):
         path = os.path.join(path_to_trancripts, "p" +
@@ -166,13 +170,15 @@ def disfluency_stats(path_to_trancripts):
         transcript_df = pd.read_csv(path, sep=",", header=0)
         row = analyze_disfluencies(transcript_df, participant)
         df_stats = pd.concat([df_stats, pd.DataFrame([row])])
-    df_stats.sort_values(by="participant_no", inplace=True)
+    df_stats.sort_values(by="Participant", inplace=True)
     df_stats.reset_index(drop=True, inplace=True)
     df_stats.to_csv("disfluency_stats.csv", index=False)
 
 
-# find all rows where speaker Participant and speaker DF have the same value for start
-# and end
+# While annotating, I noticed that a lot of filled pauses
+# occur right at the beginning of utterances. Times of the transcriptions
+# and the DF labels on the DF tier were carfully alinged for that matter.
+# DF is filtered for that alignment.
 def find_start_disfluencies(transcript_df):
     speaker_df = transcript_df[(transcript_df["speaker"] == "Participant") | (
         transcript_df["speaker"] == "DF")]
@@ -182,7 +188,9 @@ def find_start_disfluencies(transcript_df):
     return start_df, other_df
 
 
-def disfluency_location(path_to_trancripts):
+# Write start disfluencies to one file, all other utterances to another file.
+# Two files per participant.
+def get_start_disfluencies(path_to_trancripts):
     for participant in range(2, 8):
         path = os.path.join(path_to_trancripts, "p" +
                             str(participant)+"_transcript.csv")
@@ -197,12 +205,68 @@ def disfluency_location(path_to_trancripts):
         other_df.to_csv(other_out, index=False)
 
 
-# Get general dialogue stats. One output file for all participants
-general_stats("Transcripts")
+# Get absolut frequency of start disfluencies
+def get_freq_of_start_disfluencies(path_to_transcripts):
+    df = pd.DataFrame(columns=["Participant", "FP", "UP", "REP", "SUB", "ART", "CD"])
+    for participant in range(2, 8):
+        path = os.path.join(path_to_transcripts, "p" +
+                            str(participant)+"_start_df.csv")
+        transcript_df = pd.read_csv(path, sep=",", header=0)
 
-# Get general disfluency stats. One output file for all participants
-# disfluency_stats("Transcripts")
+        try:
+            fp_val = transcript_df["text"].value_counts()["FP"]
+        except KeyError:
+            fp_val = 0
 
-# Further analyze disfluencies
-# disfluency_location("Transcripts")
+        try:
+            up_val = transcript_df["text"].value_counts()["UP"]
+        except KeyError:
+            up_val = 0
 
+        try:
+            rep_val = transcript_df["text"].value_counts()["REP"]
+        except KeyError:
+            rep_val = 0
+
+        try:
+            sub_val = transcript_df["text"].value_counts()["SUB"]
+        except KeyError:
+            sub_val = 0
+
+        try:
+            art_val = transcript_df["text"].value_counts()["ART"]
+        except KeyError:
+            art_val = 0
+
+        try:
+            cd_val = transcript_df["text"].value_counts()["CD"]
+        except KeyError:
+            cd_val = 0
+
+        row = {"Participant": participant, "FP": fp_val, "UP": up_val, "REP": rep_val, "SUB": sub_val, "ART": art_val, "CD": cd_val}
+        df = pd.concat([df, pd.DataFrame([row])])
+    df.sort_values(by="Participant", inplace=True)
+    df.reset_index(drop=True, inplace=True)
+    df.to_csv("Disfluency/start_df_freq.csv", index=False)
+
+if __name__ == "__main__":
+
+    # Calls are kept separate in order to keep
+    # different analysis scripts separate
+
+
+    # Get general dialogue stats. One output file for all participants
+    # get_general_stats("Transcripts")
+
+
+    # Get general disfluency stats. One output file for all participants
+    # get_disfluency_stats("Transcripts")
+
+
+    # Split DF into two dfs: one with start disfluencies and one with
+    # all other utterances. Save to two files per participant.
+    # get_start_disfluencies("Transcripts")
+
+
+    # Get frequency of start disfluencies
+    #get_freq_of_start_disfluencies("Disfluency")
