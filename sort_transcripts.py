@@ -8,7 +8,7 @@ import os
 # Result: Utterances are chronologically ordered in the csv files
 
 
-path_base = "/Users/eileen/HCIAnalysis/Transcripts"
+path_base = "Transcripts"
 
 
 def sort_transcripts(path_base):
@@ -19,7 +19,7 @@ def sort_transcripts(path_base):
             path = os.path.join(path_base, file)
             # read transcript from file , add header
             df = pd.read_csv(path, sep=",", header=None, names=[
-                            "speaker", "start", "end", "duration", "text"])
+                "speaker", "start", "end", "duration", "text"])
             # sort df by column "start"
             df.sort_values(by="start", inplace=True)
             # reset index
@@ -27,17 +27,11 @@ def sort_transcripts(path_base):
             # save sorted df to file (overwrite unsorted file)
             df.to_csv(path, index=False)
 
-# Concatenate all transcripts into one file, add a column for participant number
-# and save to file
-# Result: One csv file with all transcripts, sorted by time stamps
-# and with a column for participant number
 
-# create empty df
-
-
+# Concatenate all transcripts into one file
 def concat_all_transcripts(path_base):
     df_all = pd.DataFrame(columns=["Participant No", "speaker", "start",
-                                    "end", "duration", "text"])
+                                   "end", "duration", "text"])
     # iterate over all files in path
     for participant in range(2, 8):
         path = os.path.join(path_base, "p" +
@@ -52,4 +46,8 @@ def concat_all_transcripts(path_base):
     # save df_all to file
     df_all.to_csv("Transcripts/all_transcripts.csv", index=False)
 
-concat_all_transcripts(path_base)
+
+if __name__ == "__main__":
+
+#     sort_transcripts(path_base)
+#     concat_all_transcripts(path_base)
